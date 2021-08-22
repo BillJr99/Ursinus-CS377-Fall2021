@@ -6,7 +6,7 @@ excerpt: "CS377: Database Design - Warmup"
 
 info:
   coursenum: CS377
-  officehourspoll: "https://www.when2meet.com/?12591726-SZOGu"
+  officehourspoll: "https://doodle.com/poll/46irhmk4rwwugrmf?utm_source=poll&utm_medium=link"
   class_notebook: "https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS377%20Fall%202021"
   class_notebook_name: "OneNote"
   chatname: "Microsoft Teams"
