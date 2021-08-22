@@ -64,7 +64,7 @@ info:
         <a title="Vitaly Zdanevich, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Aws-dynamodb-webconsole-item_(cropped).png"><img width="256" alt="Aws-dynamodb-webconsole-item (cropped)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Aws-dynamodb-webconsole-item_%28cropped%29.png/256px-Aws-dynamodb-webconsole-item_%28cropped%29.png"></a>    
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-        <img src="images/DatabaseSchema.png" alt="Example Record-Based Database Schema>
+        <img src="images/DatabaseSchema.png" alt="Example Record-Based Database Schema">
         </div>
     </div>
     </div>
