@@ -58,13 +58,13 @@ info:
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
         <div style="display: table-cell; padding:5px; width:33%;">
-            <a title="BernardoSulzbach, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DVD_Rental_Query.png"><img width="512" alt="DVD Rental Query" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/DVD_Rental_Query.png/512px-DVD_Rental_Query.png"></a>
+            <a title="BernardoSulzbach, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DVD_Rental_Query.png"><img width="256" alt="DVD Rental Query" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/DVD_Rental_Query.png/512px-DVD_Rental_Query.png"></a>
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
         <a title="Vitaly Zdanevich, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Aws-dynamodb-webconsole-item_(cropped).png"><img width="256" alt="Aws-dynamodb-webconsole-item (cropped)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Aws-dynamodb-webconsole-item_%28cropped%29.png/256px-Aws-dynamodb-webconsole-item_%28cropped%29.png"></a>    
         </div>
         <div style="display: table-cell; padding:5px; width:33%;">
-        <img src="images/DatabaseSchema.png" alt="Example Record-Based Database Schema">
+        <img src="images/DatabaseSchema.png" alt="Example Record-Based Database Schema" width="256">
         </div>
     </div>
     </div>
