@@ -333,7 +333,7 @@ schedule:
     rlink: false   
 - week: "12"
   date: "0"
-  title: "NoSQL Data Models: Key-Value, Document, Wide Column, and Graph"
+  title: "NoSQL Data Models: Key-Value, Document, Columnar, and Graph"
   link: "Activities/NoSQL/DataModels"
 - week: "13"
   date: "0"
