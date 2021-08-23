@@ -220,7 +220,7 @@ schedule:
 - week: "3"
   date: "2"
   title: "Data Modeling and Schemas"
-  link: "Activities/ModelingSchemeas"
+  link: "Activities/Modeling/Schemas"
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 
