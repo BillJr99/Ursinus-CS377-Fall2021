@@ -103,6 +103,11 @@ textbooks:
   image: https://opentextbc.ca/dbdesign01/wp-content/uploads/sites/11/2019/02/OTB008-Database-Design-2018-COVER-350x453.jpg
   isrequired: true 
   freelyavailable: true
+- title: "The Little MongoDB Book"
+  authors: "Karl Seguin"
+  link: https://www.openmymind.net/mongodb.pdf
+  isrequired: true
+  freelyavailable: true
 
 objectives:
 - objective: "To select appropriately between data models including relational and non-relational databases"
