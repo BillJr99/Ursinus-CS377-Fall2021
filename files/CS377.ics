@@ -202,7 +202,7 @@ DTSTAMP:20210924T000000Z
 DTSTART;VALUE=DATE:20210924
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/ModelingSchemeas\nReading: DD Ch. 4-5
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Schemas\nReading: DD Ch. 4-5
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
