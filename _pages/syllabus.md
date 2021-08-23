@@ -174,12 +174,14 @@ schedule:
 - week: "0"
   date: "2"
   title: "Managing Data: Text and Files" 
+  link: "Activities/TextAndFileManagement"
   readings:
   - rtitle: "DD Ch. 1"
     rlink: false  
 - week: "1"
   date: "0"
   title: "File I/O Primer"
+  link: "Activities/FileIO"
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"    
     dlink: "Assignments/Warmup"
@@ -188,6 +190,7 @@ schedule:
 - week: "1"
   date: "1"
   title: "Organizing Data: Fields and Records"
+  link: "Activities/OrganizingData"
   readings:
   - rtitle: "DD Ch. 2"
     rlink: false  
@@ -197,12 +200,14 @@ schedule:
 - week: "2"
   date: "0"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
+  link: "Activities/RDS"
 - week: "2"
   date: "1"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
 - week: "2"
   date: "2"
   title: "Processing and Aggregating Data Records"
+  link: "Activities/RDS/Aggregating"
   readings:
   - rtitle: "DD Ch. 3"
     rlink: false 
@@ -215,6 +220,7 @@ schedule:
 - week: "3"
   date: "2"
   title: "Data Modeling and Schemas"
+  link: "Activities/ModelingSchemeas"
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 
@@ -228,6 +234,7 @@ schedule:
   date: "2"
   title: "" 
   title: "The Relational Database Model"
+  link: "Activities/RelationalModel"
   readings:
   - rtitle: "DD Ch. 6-7"
     rlink: false  
@@ -240,12 +247,14 @@ schedule:
 - week: "5"
   date: "2"
   title: "The Entity-Relational (ER) Model" 
+  link: "Activities/ERModel"
   readings:
   - rtitle: "DD Ch. 8"
     rlink: false   
 - week: "6"
   date: "0"
   title: "The Structured Query Language (SQL)" 
+  link: "Activities/SQL"
   readings:
   - rtitle: "DD Ch. 15"
     rlink: false
@@ -258,12 +267,14 @@ schedule:
 - week: "7"
   date: "1"
   title: "Data Integrity"
+  link: "Activities/DataIntegrity"
   readings:
   - rtitle: "DD Ch. 9"
     rlink: false 
 - week: "7"
   date: "2"
   title: "Facilitating Integrity with Modeling and the SQL Join"
+  link: "Activities/Modeling/Join"
   readings:
   - rtitle: "DD Ch. 10"
     rlink: false    
@@ -276,6 +287,7 @@ schedule:
 - week: "8"
   date: "2"
   title: "ER Modeling and Normalization"
+  link: "Activities/Modeling/Normalization"
   readings:
   - rtitle: "DD Ch. 11-12"
     rlink: false  
@@ -287,61 +299,68 @@ schedule:
   title: "ER Modeling and Normalization"
 - week: "9"
   date: "2"
-  title: "" 
-- week: "10"
-  date: "0"
   title: "A Non-Relational Database Model: NoSQL"
+  link: "Activities/NoSQL"
   readings:
   - rtitle: "M Ch. 4, 8 (1, 5)"
     rlink: false
 - week: "10"
-  date: "1"
+  date: "0"
   title: "A Non-Relational Database Model: NoSQL"
 - week: "10"
-  date: "2"
+  date: "1"
   title: "RESTful CRUD with NoSQL" 
+  link: "Activities/NoSQL/CRUD"
   readings:
   - rtitle: "M Ch. 5 (2)"
-    rlink: false 
-- week: "11"
-  date: "0"
+    rlink: false    
+- week: "10"
+  date: "2"
   title: "RESTful CRUD with NoSQL"
 - week: "11"
+  date: "0"
+  title: "MongoDB Programming Primer"
+  link: "Activities/MongoDB"  
+- week: "11"
   date: "1"
-  title: ""
+  title: "MongoDB Programming Primer"  
 - week: "11"
   date: "2"
-  title: "MongoDB Programming Primer"
-- week: "12"
-  date: "0"
-  title: "MongoDB Programming Primer"  
-- week: "13"
-  date: "0"
   title: "NoSQL Data Processing and Aggregation" 
+  link: "Activities/NoSQL/Aggregating"
   readings:
   - rtitle: "M Ch. 6, 9 (3, 6)"
     rlink: false   
+- week: "12"
+  date: "0"
+  title: "NoSQL Data Models: Key-Value, Document, Wide Column, and Graph"
+  link: "Activities/NoSQL/DataModels"
 - week: "13"
-  date: "1"
+  date: "0"
   title: "Towards Denormalization: Data Modeling with NoSQL"
+  link: "Activities/NoSQL/Denormalization"
   readings:
   - rtitle: "M Ch. 7 (4)"
-    rlink: false 
+    rlink: false   
 - week: "13"
-  date: "2"
+  date: "1"
   title: "Performance and Scale: Toward Managed Cloud Databases"
+  link: "Activities/Cloud"
   readings:
   - rtitle: "M Ch. 10 (7)"
-    rlink: false 
+    rlink: false   
+- week: "13"
+  date: "2"
+  title: "Performance and Scale: Toward Managed Cloud Databases"  
 - week: "14"
   date: "0"
   title: "Performance and Scale: Toward Managed Cloud Databases"    
 - week: "14"
   date: "1"
-  title: "Performance and Scale: Toward Managed Cloud Databases"      
+  title: "Performance and Scale: Toward Managed Cloud Databases"  
 - week: "14"
   date: "2"
-  title: "Review"  
+  title: "Review"
   
 university:
   semester: "Fall"
