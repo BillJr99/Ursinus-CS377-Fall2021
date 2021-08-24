@@ -186,7 +186,10 @@ schedule:
   - dtitle: "Programming Assignment: Warmup Due"    
     dlink: "Assignments/Warmup"
     points: 15
-    submission_types: "noupload"    
+    submission_types: "noupload"
+  - dtitle: "Programming Assignment: GEDCOM File Format Handed Out"
+    dlink: "Assignments/GEDCOM"
+    points: 100    
 - week: "1"
   date: "1"
   title: "Organizing Data: Fields and Records"
@@ -214,6 +217,10 @@ schedule:
 - week: "3"
   date: "0"
   title: "Processing and Aggregating Data Records"
+  deliverables:
+  - dtitle: "Programming Assignment: GEDCOM File Format Due"
+    dlink: "Assignments/GEDCOM"
+    points: 100  
 - week: "3"
   date: "1"
   title: "Processing and Aggregating Data Records"
