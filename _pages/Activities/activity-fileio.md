@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/FileIO
-title: "CS173: Intro to Computer Science - File I/O"
-excerpt: "CS173: Intro to Computer Science - File I/O"
+title: "CS377: Database Design - File I/O"
+excerpt: "CS377: Database Design - File I/O"
 
 info:
   goals: 
