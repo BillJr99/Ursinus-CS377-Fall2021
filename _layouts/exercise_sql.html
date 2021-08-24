@@ -249,9 +249,11 @@ mynetid: wmongan
               lines = code.val().split('\n');
               // Prepare each statement
               for(var i = 0; i < lines.length; i++) {
-                const res = db.exec(lines[i]);
+                if(!(lines[i].startsWith("//")) { // make comments // instead of -- and ignore them
+                    const res = db.exec(lines[i]);
                 
-                feedbackStr += res + '\n';
+                    feedbackStr += res + '\n';
+                }
               }
               
             }); 

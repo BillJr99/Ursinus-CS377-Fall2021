@@ -30,8 +30,8 @@ files:
     isreadonly: false
     isvisible: true
     code: | 
-        -- TODO: insert a value into the mytable database table
-        -- TODO: retrive the value from the table
+        // TODO: insert a value into the mytable database table
+        // TODO: retrive the value from the table
 
   - filename: "Setup.sql"
     ismain: true
