@@ -1,6 +1,6 @@
 ---
 layout: assignment
-permalink: /Assignments/GEDCOM
+permalink: /Assignments/GEDCOM/FileIO
 title: "CS377: Intro to Computer Science - The GEDCOM File Format"
 excerpt: "CS377: Intro to Computer Science - The GEDCOM File Format"
 

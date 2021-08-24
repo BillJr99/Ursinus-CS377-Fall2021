@@ -188,7 +188,7 @@ schedule:
     points: 15
     submission_types: "noupload"
   - dtitle: "Programming Assignment: GEDCOM File Format Handed Out"
-    dlink: "Assignments/GEDCOM"
+    dlink: "Assignments/GEDCOM/FileIO"
     points: 100    
 - week: "1"
   date: "1"
@@ -219,7 +219,7 @@ schedule:
   title: "Processing and Aggregating Data Records"
   deliverables:
   - dtitle: "Programming Assignment: GEDCOM File Format Due"
-    dlink: "Assignments/GEDCOM"
+    dlink: "Assignments/GEDCOM/FileIO"
     points: 100  
 - week: "3"
   date: "1"

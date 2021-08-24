@@ -6,11 +6,14 @@ excerpt: "CS173: Intro to Computer Science - File I/O"
 
 info:
   goals: 
-    - abc
+    - To read files for processing
     
   models:
     - model: |
-        abc
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[        
+        f = file("somepath.txt", "w") # w+ for overwrite
+        
+        ]]></script> 
       title: abc
       questions:
         - "abc"
