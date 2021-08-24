@@ -252,13 +252,11 @@ mynetid: wmongan
                 if(!(lines[i].startsWith("//")) { // make comments // instead of -- and ignore them
                     const res = db.exec(lines[i]);
                 
-                    feedbackStr += res + '\n';
+                    feedbackString += res + '\n';
                 }
               }
               
             }); 
-
-            feedback.setValue(feedbackString);           
         }
 
         function runCode() {
@@ -270,7 +268,8 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                doSql(editorText);
+                let code = makeCodeSqlProcessing(editorText, mainEditor.getValue());
+                doSql(code);
                 
                 {{ page.processor.feedbackprocess | strip }}
                 if ({{ page.processor.correctcheck | strip}}) {
