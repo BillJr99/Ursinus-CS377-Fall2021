@@ -50,22 +50,6 @@ function makeCodeJavaProcessing(codeString, mainString) {
 }
 
 /**
- * Take code from the browser and put it into a form that can be sent to sql
- * 
- * @param {*} codeString All Sql code (except for the main) that should be executed, as a string
- * @param {*} mainString A string of the Sql code that should go in main
- * 
- * @return The final code that should be executed by processing.js
- */
-function makeCodeSqlProcessing(codeString, mainString) {
-    feedbackString = "";
-    let str = mainString;
-    str += codeString;
-    console.log(str);
-    return str;
-}
-
-/**
  * Convert the whitespace in a particular string to HTML whitespace
  * @param {string} s The input string
  */

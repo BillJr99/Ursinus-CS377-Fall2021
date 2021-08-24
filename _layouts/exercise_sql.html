@@ -230,10 +230,13 @@ mynetid: wmongan
             
             xhttp.send(urlencodeFormData(formdata));                    
             {% endif %}
-        }
+        }      
         
         function doSql(code) {
-            var feedbackString;
+            var feedbackString = "";
+            let str = mainString + '\n';
+            str += codeString + '\n';
+            console.log(str);
             
             <!-- https://sql.js.org/#/?id=upgrading-from-0x-to-1x -->
             config = {
