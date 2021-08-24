@@ -232,7 +232,7 @@ mynetid: wmongan
             {% endif %}
         }      
         
-        function doSql(code) {
+        function doSql(codeString, mainString) {
             var feedbackString = "";
             let str = mainString + '\n';
             str += codeString + '\n';
@@ -272,8 +272,7 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                let code = makeCodeSqlProcessing(editorText, mainEditor.getValue());
-                doSql(code);
+                doSql(editorText, mainEditor.getValue());
                 
                 {{ page.processor.feedbackprocess | strip }}
                 if ({{ page.processor.correctcheck | strip}}) {
