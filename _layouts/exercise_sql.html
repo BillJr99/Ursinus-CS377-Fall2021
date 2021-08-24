@@ -274,7 +274,7 @@ mynetid: wmongan
                 
                 var feedbackString = await doSql(editorText, mainEditor.getValue()); 
                 
-                console.log("Got feedback string: " + feedbackString);
+                console.log("Got feedback string: " + feedbackString); 
                 
                 {{ page.processor.feedbackprocess | strip }}
                 if ({{ page.processor.correctcheck | strip}}) {
