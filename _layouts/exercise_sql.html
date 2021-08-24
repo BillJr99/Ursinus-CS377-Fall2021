@@ -254,8 +254,8 @@ mynetid: wmongan
               for(var i = 0; i < lines.length; i++) {
                 if(!(lines[i].startsWith("--"))) { // ignore comments
                     const res = db.exec(lines[i]);
-                
-                    feedbackString += res + '\n';
+                    const resStr = JSON.stringify(res);
+                    feedbackString += resStr + '\n';
                 }
               }
               
