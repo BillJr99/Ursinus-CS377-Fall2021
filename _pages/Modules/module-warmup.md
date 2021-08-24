@@ -21,7 +21,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString;
   correctcheck: |
-    pos.toLowerCase().includes("42");
+    pos.toLowerCase().includes("42")
  
 files:
   - filename: "MyFirstStatement.sql"
