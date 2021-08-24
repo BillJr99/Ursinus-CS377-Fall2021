@@ -252,7 +252,7 @@ mynetid: wmongan
               lines = code.split('\n');
               // Prepare each statement
               for(var i = 0; i < lines.length; i++) {
-                if(!(lines[i].strip().startsWith("--")) && lines[i].strip().length() >= 1) { // ignore comments and blank lines
+                if(!(lines[i].trim().startsWith("--")) && lines[i].trim().length() >= 1) { // ignore comments and blank lines
                     const res = db.exec(lines[i]);
                     const resStr = JSON.stringify(res);
                     feedbackString += resStr + '\n';
