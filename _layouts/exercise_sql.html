@@ -260,6 +260,8 @@ mynetid: wmongan
               }
               
               feedback.setValue(feedbackString);
+              
+              return feedbackString;
             }).resolve(feedbackString).then(function(value) {
                 return value; //feedbackString
             });
