@@ -246,7 +246,7 @@ mynetid: wmongan
               // Create the database
               const db = new SQL.Database();
 
-              lines = code.val().split('\n');
+              lines = code.split('\n');
               // Prepare each statement
               for(var i = 0; i < lines.length; i++) {
                 if(!(lines[i].startsWith("--"))) { // ignore comments
