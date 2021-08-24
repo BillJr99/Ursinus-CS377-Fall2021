@@ -263,7 +263,7 @@ mynetid: wmongan
             }).resolve(feedbackString);  
         }
 
-        function runCode() {
+        async function runCode() {
             try {
                 numAttempts++;
                 let editorText = "";
@@ -272,45 +272,45 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                var feedbackString = doSql(editorText, mainEditor.getValue()).then(function(feedbackString) { 
-                    console.log("Got feedback string: " + feedbackString);
-                    
-                    {{ page.processor.feedbackprocess | strip }}
-                    if ({{ page.processor.correctcheck | strip}}) {
-                        correctlyAnswered = true;
-                        correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
-                        <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
-                        {% if page.processor.submitformlink and page.processor.submitformlink != false %}
-                        correctArea.innerHTML += `
-                        <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
-                        `;
-                        {% endif %}
-                        
-                        postCode(true, false);
-                    }
-                    {% if page.processor.incorrectchecks %}
-                    {% for check in page.processor.incorrectchecks %}
-                    else if ({{ check.incorrectcheck | strip}}) {
-                        correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
-                    }
-                    {% endfor %}
+                var feedbackString = await doSql(editorText, mainEditor.getValue());
+                
+                console.log("Got feedback string: " + feedbackString);
+                
+                {{ page.processor.feedbackprocess | strip }}
+                if ({{ page.processor.correctcheck | strip}}) {
+                    correctlyAnswered = true;
+                    correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
+                    <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
+                    {% if page.processor.submitformlink and page.processor.submitformlink != false %}
+                    correctArea.innerHTML += `
+                    <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
+                    `;
                     {% endif %}
-                    else {
-                        correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
-                    }
+                    
+                    postCode(true, false);
                 }
-                catch(err) {
-                    correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
-                    feedback.setValue("Error: " + err.message);
+                {% if page.processor.incorrectchecks %}
+                {% for check in page.processor.incorrectchecks %}
+                else if ({{ check.incorrectcheck | strip}}) {
+                    correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
                 }
-
-                {% if page.canvashalftries %}
-                if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
-                    postCode(false, true);
-                }
-
+                {% endfor %}
                 {% endif %}
-            });
+                else {
+                    correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                }
+            }
+            catch(err) {
+                correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                feedback.setValue("Error: " + err.message);
+            }
+
+            {% if page.canvashalftries %}
+            if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
+                postCode(false, true);
+            }
+
+            {% endif %}
         }
         </script>        
         
