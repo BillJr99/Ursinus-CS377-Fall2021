@@ -60,9 +60,7 @@ function makeCodeJavaProcessing(codeString, mainString) {
 function makeCodeSqlProcessing(codeString, mainString) {
     feedbackString = "";
     let str = mainString;
-    str += PROCESSING_CODE_BEGIN;
     str += codeString;
-    str += PROCESSING_CODE_END;
     console.log(str);
     return str;
 }
