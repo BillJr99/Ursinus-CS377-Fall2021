@@ -1,8 +1,8 @@
 ---
 layout: syllabus
 permalink: /
-title: "CS377: Databases"
-excerpt: "CS377: Databases"
+title: "CS377: Database Design"
+excerpt: "CS377: Database Design"
     
 info:
   course_number: CS377
