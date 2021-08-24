@@ -1,3 +1,4 @@
+
 // We are modularizing this manually because the current modularize setting in Emscripten has some issues:
 // https://github.com/kripken/emscripten/issues/5820
 // In addition, When you use emcc's modularization, it still expects to export a global object called `Module`,
@@ -203,10 +204,3 @@ else if (typeof define === 'function' && define['amd']) {
 else if (typeof exports === 'object'){
     exports["Module"] = initSqlJs;
 }
-
-// Distributed under the MIT License: https://sql.js.org/#/
-/*
-Copyright (c) 2017 sql.js authors (see https://github.com/sql-js/sql.js/blob/master/AUTHORS)
- 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
