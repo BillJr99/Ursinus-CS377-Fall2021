@@ -232,7 +232,7 @@ mynetid: wmongan
             {% endif %}
         }      
         
-        function doSql(codeString, mainString) {
+        async function doSql(codeString, mainString) {
             var feedbackString = "";
             let code = mainString + '\n';
             code += codeString + '\n';
@@ -260,7 +260,10 @@ mynetid: wmongan
               }
               
               feedback.setValue(feedbackString);
-            }).resolve(feedbackString);  
+              resolve(feedbackString);
+            }).then(function(value) {
+                return value; //feedbackString
+            });
         }
 
         async function runCode() {
