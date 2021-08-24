@@ -139,7 +139,7 @@ DTSTAMP:20210906T000000Z
 DTSTART;VALUE=DATE:20210906
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/FileIO\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Warmup\nDeliverable: Programming Assignment: GEDCOM File Format Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/FileIO\nDeliverable: Programming Assignment: Warmup Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Warmup\nDeliverable: Programming Assignment: GEDCOM File Format Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM/FileIO
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -202,7 +202,7 @@ DTSTAMP:20210920T000000Z
 DTSTART;VALUE=DATE:20210920
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: GEDCOM File Format Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM
+DESCRIPTION:\nDeliverable: Programming Assignment: GEDCOM File Format Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM/FileIO
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
