@@ -272,7 +272,7 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                var feedbackString = await doSql(editorText, mainEditor.getValue());
+                var feedbackString = await doSql(editorText, mainEditor.getValue()); 
                 
                 console.log("Got feedback string: " + feedbackString);
                 
