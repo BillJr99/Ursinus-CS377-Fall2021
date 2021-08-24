@@ -252,7 +252,7 @@ mynetid: wmongan
               lines = code.split('\n');
               // Prepare each statement
               for(var i = 0; i < lines.length; i++) {
-                if(!(lines[i].startsWith("--"))) { // ignore comments
+                if(!(lines[i].strip().startsWith("--")) && lines[i].strip().length() >= 1) { // ignore comments and blank lines
                     const res = db.exec(lines[i]);
                     const resStr = JSON.stringify(res);
                     feedbackString += resStr + '\n';
@@ -260,6 +260,8 @@ mynetid: wmongan
               }
               
               feedback.setValue(feedbackString);
+              
+              resolve(feedbackString);
             }); 
         }
 
@@ -272,45 +274,44 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                doSql(editorText, mainEditor.getValue());
-                
-                {{ page.processor.feedbackprocess | strip }}
-                if ({{ page.processor.correctcheck | strip}}) {
-                    correctlyAnswered = true;
-                    correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
-                    <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
-                    {% if page.processor.submitformlink and page.processor.submitformlink != false %}
-                    correctArea.innerHTML += `
-                    <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
-                    `;
+                doSql(editorText, mainEditor.getValue()).then(function(feedbackString) {                
+                    {{ page.processor.feedbackprocess | strip }}
+                    if ({{ page.processor.correctcheck | strip}}) {
+                        correctlyAnswered = true;
+                        correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
+                        <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
+                        {% if page.processor.submitformlink and page.processor.submitformlink != false %}
+                        correctArea.innerHTML += `
+                        <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
+                        `;
+                        {% endif %}
+                        
+                        postCode(true, false);
+                    }
+                    {% if page.processor.incorrectchecks %}
+                    {% for check in page.processor.incorrectchecks %}
+                    else if ({{ check.incorrectcheck | strip}}) {
+                        correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
+                    }
+                    {% endfor %}
                     {% endif %}
-                    
-                    postCode(true, false);
+                    else {
+                        correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                    }
                 }
-                {% if page.processor.incorrectchecks %}
-                {% for check in page.processor.incorrectchecks %}
-                else if ({{ check.incorrectcheck | strip}}) {
-                    correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
-                }
-                {% endfor %}
-                {% endif %}
-                else {
+                catch(err) {
                     correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                    feedback.setValue("Error: " + err.message);
                 }
-            }
-            catch(err) {
-                correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
-                feedback.setValue("Error: " + err.message);
-            }
 
-            {% if page.canvashalftries %}
-            if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
-                postCode(false, true);
-            }
+                {% if page.canvashalftries %}
+                if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
+                    postCode(false, true);
+                }
 
 
-            {% endif %}
-
+                {% endif %}
+            });
         }
         </script>        
         
