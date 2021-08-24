@@ -232,7 +232,7 @@ mynetid: wmongan
             {% endif %}
         }      
         
-        function doSql(codeString, mainString) {
+        async function doSql(codeString, mainString) {
             var feedbackString = "";
             let code = mainString + '\n';
             code += codeString + '\n';
@@ -245,7 +245,7 @@ mynetid: wmongan
             
             // The `initSqlJs` function is globally provided by all of the main dist files if loaded in the browser.
             // We must specify this locateFile function if we are loading a wasm file from anywhere other than the current html page's folder.
-            return initSqlJs(config).then(function(SQL){
+            initSqlJs(config).then(function(SQL){
               // Create the database
               const db = new SQL.Database();
 
@@ -265,7 +265,7 @@ mynetid: wmongan
             }); 
         }
 
-        function runCode() {
+        async function runCode() {
             try {
                 numAttempts++;
                 let editorText = "";
@@ -274,44 +274,43 @@ mynetid: wmongan
                     editorText += "\n";
                 }
                 
-                doSql(editorText, mainEditor.getValue()).then(function(feedbackString) {                
-                    {{ page.processor.feedbackprocess | strip }}
-                    if ({{ page.processor.correctcheck | strip}}) {
-                        correctlyAnswered = true;
-                        correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
-                        <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
-                        {% if page.processor.submitformlink and page.processor.submitformlink != false %}
-                        correctArea.innerHTML += `
-                        <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
-                        `;
-                        {% endif %}
-                        
-                        postCode(true, false);
-                    }
-                    {% if page.processor.incorrectchecks %}
-                    {% for check in page.processor.incorrectchecks %}
-                    else if ({{ check.incorrectcheck | strip}}) {
-                        correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
-                    }
-                    {% endfor %}
+                var feedbackString = await doSql(editorText, mainEditor.getValue());
+                
+                {{ page.processor.feedbackprocess | strip }}
+                if ({{ page.processor.correctcheck | strip}}) {
+                    correctlyAnswered = true;
+                    correctArea.innerHTML = "<h3><font color = #00AA00>{{ page.processor.correctfeedback | strip}}</font></h3>";
+                    <!-- Setting a page.processor.submitformlink in the markdown will pop up an iframe with a page of your choice -->
+                    {% if page.processor.submitformlink and page.processor.submitformlink != false %}
+                    correctArea.innerHTML += `
+                    <iframe src = "{{ page.processor.submitformlink | strip }}" width=800 height=500>
+                    `;
                     {% endif %}
-                    else {
-                        correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
-                    }
+                    
+                    postCode(true, false);
                 }
-                catch(err) {
-                    correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
-                    feedback.setValue("Error: " + err.message);
+                {% if page.processor.incorrectchecks %}
+                {% for check in page.processor.incorrectchecks %}
+                else if ({{ check.incorrectcheck | strip}}) {
+                    correctArea.innerHTML = "<h3><font color = red>{{ check.feedback | strip }}</font></h3>";
                 }
-
-                {% if page.canvashalftries %}
-                if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
-                    postCode(false, true);
-                }
-
-
+                {% endfor %}
                 {% endif %}
-            });
+                else {
+                    correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                }
+            }
+            catch(err) {
+                correctArea.innerHTML = "<h3><font color = red>{{ page.processor.incorrectfeedback | strip }}</font></h3>";
+                feedback.setValue("Error: " + err.message);
+            }
+
+            {% if page.canvashalftries %}
+            if (!correctlyAnswered && numAttempts == {{ page.canvashalftries }}) {
+                postCode(false, true);
+            }
+
+            {% endif %}
         }
         </script>        
         
