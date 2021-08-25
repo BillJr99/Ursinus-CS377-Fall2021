@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/RDS/Aggregating
-title: "CS173: Intro to Computer Science - Aggregation in Relational Databases"
-excerpt: "CS173: Intro to Computer Science - Aggregation in Relational Databases"
+title: "CS377: Database Design - Aggregation in Relational Databases"
+excerpt: "CS377: Database Design - Aggregation in Relational Databases"
 
 info:
   goals: 

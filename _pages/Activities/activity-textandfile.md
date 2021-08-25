@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/TextAndFileManagement
-title: "CS173: Intro to Computer Science - Text and File Management"
-excerpt: "CS173: Intro to Computer Science - Text and File Management"
+title: "CS377: Database Design - Text and File Management"
+excerpt: "CS377: Database Design - Text and File Management"
 
 info:
   goals: 

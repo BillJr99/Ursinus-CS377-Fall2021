@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/OrganizingData
-title: "CS173: Intro to Computer Science - Data Organization: Fields, Records, and Keys"
-excerpt: "CS173: Intro to Computer Science - Data Organization: Fields, Records, and Keys"
+title: "CS377: Database Design - Data Organization: Fields, Records, and Keys"
+excerpt: "CS377: Database Design - Data Organization: Fields, Records, and Keys"
 
 info:
   goals: 
