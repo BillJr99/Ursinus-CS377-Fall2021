@@ -122,11 +122,13 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "40%"
+  weight: "35%"
 - category: "Labs"
-  weight: "30%"
+  weight: "25%"
 - category: "Quizzes"
   weight: "10%"  
+- category: "Exercises"
+  weight: "10%"
 - category: "Final Project"
   weight: "20%"  
 
@@ -187,9 +189,10 @@ schedule:
     dlink: "Assignments/Warmup"
     points: 15
     submission_types: "noupload"
-  - dtitle: "Programming Assignment: GEDCOM File Format Handed Out"
-    dlink: "Assignments/GEDCOM/FileIO"
+  - dtitle: "Lab: File I/O Handed Out"
+    dlink: "Labs/FileIO"
     points: 100    
+    rubricpath: "_pages/Labs/asmt-fileio.md"    
 - week: "1"
   date: "1"
   title: "Organizing Data: Fields and Records"
@@ -204,9 +207,19 @@ schedule:
   date: "0"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
   link: "Activities/RDS"
+  deliverables:
+  - dtitle: "Programming Assignment: GEDCOM File Format Handed Out"
+    dlink: "Assignments/GEDCOM/FileIO"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
 - week: "2"
   date: "1"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
+  deliverables:
+  - dtitle: "Lab: File I/O Due"
+    dlink: "Labs/FileIO"
+    points: 100    
+    rubricpath: "_pages/Labs/asmt-fileio.md"     
 - week: "2"
   date: "2"
   title: "Processing and Aggregating Data Records"
@@ -217,10 +230,6 @@ schedule:
 - week: "3"
   date: "0"
   title: "Processing and Aggregating Data Records"
-  deliverables:
-  - dtitle: "Programming Assignment: GEDCOM File Format Due"
-    dlink: "Assignments/GEDCOM/FileIO"
-    points: 100  
 - week: "3"
   date: "1"
   title: "Processing and Aggregating Data Records"
@@ -228,6 +237,11 @@ schedule:
   date: "2"
   title: "Data Modeling and Schemas"
   link: "Activities/Modeling/Schemas"
+  deliverables:
+  - dtitle: "Programming Assignment: GEDCOM File Format Due"
+    dlink: "Assignments/GEDCOM/FileIO"
+    points: 100  
+    rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 

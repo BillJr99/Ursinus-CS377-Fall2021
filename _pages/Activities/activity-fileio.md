@@ -11,7 +11,7 @@ info:
   models:
     - model: |
         <script type="syntaxhighlighter" class="brush: python"><![CDATA[        
-        f = file("somepath.txt", "w") # w+ for overwrite
+        f = file("somepath.txt", "a+") # a+ for append to the end, w for overwrite
         
         f.write("This is a test")
         
@@ -25,7 +25,8 @@ info:
       title: Basic File Reading
       questions:
         - "Modify this program to read a comma separated value, and for each row, print every column individually via a loop (so that they print without the commas!)."
-        
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonFileIO?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
 tags:
   - files  
 ---
