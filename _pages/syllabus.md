@@ -173,6 +173,9 @@ schedule:
 - week: "0"
   date: "1"
   title: "Course Overview: What is a Database, and Why Use Them?"
+  readings:
+  - rtitle: "Introduction to Databases"
+    rlink: "https://www.techopedia.com/6/28832/enterprise/databases/introduction-to-databases"
 - week: "0"
   date: "2"
   title: "Managing Data: Text and Files" 
@@ -224,6 +227,8 @@ schedule:
   readings:
   - rtitle: "DD Ch. 3"
     rlink: false 
+  - rtitle: "Database Introduction"
+    rlink: "https://comptoolsres.github.io/Database_Introduction.html"
 - week: "2"
   date: "2"
   title: "Processing and Aggregating Data Records"
@@ -275,6 +280,10 @@ schedule:
     rtitle: PyMySQL Python Library
   - rlink: https://docs.python.org/3/library/sqlite3.html
     rtitle: Sqlite3 Python Library    
+  - rlink: https://www.tutorialspoint.com/postgresql/postgresql_python.htm
+    rtitle: PostgreSQL Python Library
+  - rlink: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb
+    rtitle: Databases and SQL    
 - week: "4"
   date: "2"
   title: "The Relational Database Model and Database Programming Primer"   

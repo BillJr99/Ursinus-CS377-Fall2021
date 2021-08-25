@@ -33,7 +33,8 @@ info:
       rlink: "../Activities/RDS/Aggregating" 
     - rtitle: "File I/O Activity"
       rlink: "../Activities/FileIO"    
-      
+    - rtitle: "Database Introduction"
+      rlink: "https://comptoolsres.github.io/Database_Introduction.html"
 tags:
   - tables
   
