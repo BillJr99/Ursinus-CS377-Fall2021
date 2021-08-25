@@ -192,7 +192,7 @@ schedule:
   - dtitle: "Lab: File I/O Handed Out"
     dlink: "Labs/FileIO"
     points: 100    
-    rubricpath: "_pages/Labs/asmt-fileio.md"    
+    rubricpath: "_pages/Labs/lab-fileio.md"    
 - week: "1"
   date: "1"
   title: "Organizing Data: Fields, Records, and Keys"
@@ -202,7 +202,7 @@ schedule:
     rlink: false  
 - week: "1"
   date: "2"
-  title: "Relational Database Systems (RDS) and Database Programming Primer"
+  title: "Relational Database Systems (RDS)"
   link: "Activities/RDS"
   deliverables:
   - dtitle: "Programming Assignment: GEDCOM File Format Handed Out"
@@ -211,12 +211,12 @@ schedule:
     rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
 - week: "2"
   date: "0"
-  title: "Relational Database Systems (RDS) and Database Programming Primer"
+  title: "Relational Database Systems (RDS)"
   deliverables:
   - dtitle: "Lab: File I/O Due"
     dlink: "Labs/FileIO"
     points: 100    
-    rubricpath: "_pages/Labs/asmt-fileio.md"     
+    rubricpath: "_pages/Labs/lab-fileio.md"     
 - week: "2"
   date: "1"
   title: "Processing and Aggregating Data Records"
@@ -227,6 +227,11 @@ schedule:
 - week: "2"
   date: "2"
   title: "Processing and Aggregating Data Records"
+  deliverables:
+  - dtitle: "Lab: Database Tables Lab Handed Out"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"    
 - week: "3"
   date: "0"
   title: "Processing and Aggregating Data Records"
@@ -248,20 +253,35 @@ schedule:
 - week: "4"
   date: "0"
   title: "Data Modeling and Schemas"
+  deliverables:
+  - dtitle: "Lab: Database Tables Lab Due"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"   
 - week: "4"
   date: "1"
   title: "" 
-  title: "The Relational Database Model"
+  title: "The Relational Database Model and Database Programming Primer"
   link: "Activities/RelationalModel"
+  deliverables:
+  - dtitle: "Lab: Schemas Handed Out"
+    dlink: "Labs/Schemas"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-schemas.md"      
   readings:
   - rtitle: "DD Ch. 6-7"
     rlink: false  
 - week: "4"
   date: "2"
-  title: "The Relational Database Model"   
+  title: "The Relational Database Model and Database Programming Primer"   
 - week: "5"
   date: "0"
-  title: "The Relational Database Model"
+  title: "The Relational Database Model and Database Programming Primer"
+  deliverables:
+  - dtitle: "Lab: Database Programming Handed Out"
+    dlink: "Assignments/DatabaseProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"  
 - week: "5"
   date: "1"
   title: "The Entity-Relational (ER) Model" 
@@ -273,6 +293,11 @@ schedule:
   date: "2"
   title: "The Structured Query Language (SQL)" 
   link: "Activities/SQL"
+  deliverables:
+  - dtitle: "Lab: Schemas Due"
+    dlink: "Labs/Schemas"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-schemas.md"        
   readings:
   - rtitle: "DD Ch. 15"
     rlink: false
@@ -286,6 +311,11 @@ schedule:
   date: "2"
   title: "Data Integrity"
   link: "Activities/DataIntegrity"
+  deliverables:
+  - dtitle: "Lab: Database Programming Due"
+    dlink: "Assignments/DatabaseProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"    
   readings:
   - rtitle: "DD Ch. 9"
     rlink: false 

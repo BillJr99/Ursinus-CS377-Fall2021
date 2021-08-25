@@ -1,14 +1,14 @@
 ---
 layout: assignment
-permalink: /Labs/FileIO
-title: "CS377: Database Design - File I/O"
-excerpt: "CS377: Database Design - File I/O"
+permalink: /Labs/DatabaseTables
+title: "CS377: Database Design - Database Tables"
+excerpt: "CS377: Database Design - Database Tables"
 
 info:
   coursenum: CS377
   points: 100
   goals:
-    - To use file I/O to read and process records in a flat file format
+    - To design referential database tables, and to work with them in the SQL language using Sqlite
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -29,24 +29,17 @@ info:
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
   readings:
-    - rtitle: "Text and File Management Activity"
-      rlink: "../Activities/TextAndFileManagement" 
+    - rtitle: "Database Table Aggregation Activity"
+      rlink: "../Activities/RDS/Aggregating" 
     - rtitle: "File I/O Activity"
       rlink: "../Activities/FileIO"    
       
 tags:
-  - introduction
+  - tables
   
 ---
 
-In this lab, you will create a class to represent a data model of some type (your movie collection, people you work with, *etc*).  This can be anything you'd like, but each class should have at least three fields in it.  Your class should have a method that returns a `dict` structure whose keys are the name of the field and whose values are the corresponding values of that object (you can use the `.__dict__` attribute of your object to return this dictionary automatically, or you may create the `dict` structure yourself).
-
-Create a second class that writes a `dict` structure to a comma-separated value.  The first line of this file (and only the first line) should be the header row, containing the columns of the data within.  The desired filename should be a parameter.  For safety, if the file already exists, append to it by opening the file in `'a'` mode.  If the parameter is not a dict, your program should fail gracefully (in other words, it should continue execution beyond the point of the error, and not simply quit!).
-
-In your `main` function, instantiate at least three of these objects and write them to a file that you specify with a parameter.
-
-### Unit Testing
-Explore the [Unit Testing](https://docs.python.org/3/library/unittest.html) framework that Python provides to automatically test your lab.  Create a test class at least three test cases that write to a file.  You can read the file and inspect its contents as your test validation.
+In this lab, you will 
 
 ## Exporting your Project for Submission
 

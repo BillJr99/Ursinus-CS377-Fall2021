@@ -1,14 +1,14 @@
 ---
 layout: assignment
-permalink: /Labs/FileIO
-title: "CS377: Database Design - File I/O"
-excerpt: "CS377: Database Design - File I/O"
+permalink: /Labs/Schemas
+title: "CS377: Database Design - Schemas"
+excerpt: "CS377: Database Design - Schemas"
 
 info:
   coursenum: CS377
   points: 100
   goals:
-    - To use file I/O to read and process records in a flat file format
+    - To create a database schema that handles relational references
   rubric:
     - weight: 60
       description: Algorithm Implementation
@@ -29,24 +29,23 @@ info:
       progressing: The program is submitted according to the directions with a minor omission or correction needed, including a readme writeup describing the solution and answering nearly all questions posed in the instructions
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution and answering all questions posed in the instructions
   readings:
-    - rtitle: "Text and File Management Activity"
-      rlink: "../Activities/TextAndFileManagement" 
-    - rtitle: "File I/O Activity"
-      rlink: "../Activities/FileIO"    
+    - rtitle: "Data Modeling and Schemas Activity"
+      rlink: "../Activities/Modeling/Schemas" 
       
 tags:
-  - introduction
+  - schemas
+  - programming
   
 ---
 
-In this lab, you will create a class to represent a data model of some type (your movie collection, people you work with, *etc*).  This can be anything you'd like, but each class should have at least three fields in it.  Your class should have a method that returns a `dict` structure whose keys are the name of the field and whose values are the corresponding values of that object (you can use the `.__dict__` attribute of your object to return this dictionary automatically, or you may create the `dict` structure yourself).
+In this lab, you will create a database schema design including hierarchical relationships.  
 
-Create a second class that writes a `dict` structure to a comma-separated value.  The first line of this file (and only the first line) should be the header row, containing the columns of the data within.  The desired filename should be a parameter.  For safety, if the file already exists, append to it by opening the file in `'a'` mode.  If the parameter is not a dict, your program should fail gracefully (in other words, it should continue execution beyond the point of the error, and not simply quit!).
+Consider the problem of planning your graduation requirements.  Certain courses meet various requirements within your major, both for the major itself and for the college.  You might be required to take a certain number of those courses, but it may also be the case that one course satisfies multiple requirements simultaneously.  
 
-In your `main` function, instantiate at least three of these objects and write them to a file that you specify with a parameter.
+Design a database schema including tables and keys that helps to satisfy these requirements.  You may find it helpful to create a table just for handling requirements, mapping a single course ID to a single requirement ID, but allowing several entries for the same course ID (this implements the 1:many relationship of a hierarchical model!).
 
-### Unit Testing
-Explore the [Unit Testing](https://docs.python.org/3/library/unittest.html) framework that Python provides to automatically test your lab.  Create a test class at least three test cases that write to a file.  You can read the file and inspect its contents as your test validation.
+### Implementing the Database in SQL
+Once you have created your design, create the tables using SQL `CREATE TABLE` statements.  Insert data into each of the tables with `INSERT INTO` commands.
 
 ## Exporting your Project for Submission
 
