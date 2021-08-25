@@ -6,16 +6,27 @@ excerpt: "CS173: Intro to Computer Science - Data Organization: Fields, Records,
 
 info:
   goals: 
-    - abc
+    - To define a record, field, and key in a database system
+    - To explain the importance and challenges of internal consistency
     
   models:
     - model: |
-        abc
-      title: abc
+        <img alt="Ham Radio Logbook Showing Two Records with Slighly Different Field Values" src="../images/logbook.png">
+      title: "Records, Fields, and Keys"
       questions:
-        - "abc"
+        - "What records do you see in the data?  What fields?"
+        - "What should happen if a particular field does not have a value?"
+        - "Two records are sometimes linked together; what do you think this means in this application?"
+        - "The two records are somewhat different; how, and what should be done about this?"
+    - model: |
+        <img alt="An Example Gradebook" src="https://s3.amazonaws.com/kb-media.populi.co/course_gradebook_editing_grades.png">
+      title: "Internal Consistency"
+      questions:
+        - "Which fields should a user be able to update?  Which ones should a user not update directly, and why?"
         
 tags:
-  - abc  
+  - records
+  - fields
+  - keys  
 ---
 

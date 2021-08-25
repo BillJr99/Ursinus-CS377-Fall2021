@@ -195,16 +195,13 @@ schedule:
     rubricpath: "_pages/Labs/asmt-fileio.md"    
 - week: "1"
   date: "1"
-  title: "Organizing Data: Fields and Records"
+  title: "Organizing Data: Fields, Records, and Keys"
   link: "Activities/OrganizingData"
   readings:
   - rtitle: "DD Ch. 2"
     rlink: false  
 - week: "1"
   date: "2"
-  title: "Organizing Data: Keys"
-- week: "2"
-  date: "0"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
   link: "Activities/RDS"
   deliverables:
@@ -213,7 +210,7 @@ schedule:
     points: 100    
     rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
 - week: "2"
-  date: "1"
+  date: "0"
   title: "Relational Database Systems (RDS) and Database Programming Primer"
   deliverables:
   - dtitle: "Lab: File I/O Due"
@@ -221,20 +218,20 @@ schedule:
     points: 100    
     rubricpath: "_pages/Labs/asmt-fileio.md"     
 - week: "2"
-  date: "2"
+  date: "1"
   title: "Processing and Aggregating Data Records"
   link: "Activities/RDS/Aggregating"
   readings:
   - rtitle: "DD Ch. 3"
     rlink: false 
+- week: "2"
+  date: "2"
+  title: "Processing and Aggregating Data Records"
 - week: "3"
   date: "0"
   title: "Processing and Aggregating Data Records"
 - week: "3"
   date: "1"
-  title: "Processing and Aggregating Data Records"
-- week: "3"
-  date: "2"
   title: "Data Modeling and Schemas"
   link: "Activities/Modeling/Schemas"
   deliverables:
@@ -245,60 +242,63 @@ schedule:
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 
+- week: "3"
+  date: "2"
+  title: "Data Modeling and Schemas"
 - week: "4"
   date: "0"
   title: "Data Modeling and Schemas"
 - week: "4"
   date: "1"
-  title: "Data Modeling and Schemas"
-- week: "4"
-  date: "2"
   title: "" 
   title: "The Relational Database Model"
   link: "Activities/RelationalModel"
   readings:
   - rtitle: "DD Ch. 6-7"
     rlink: false  
-- week: "5"
-  date: "0"
+- week: "4"
+  date: "2"
   title: "The Relational Database Model"   
 - week: "5"
-  date: "1"
+  date: "0"
   title: "The Relational Database Model"
 - week: "5"
-  date: "2"
+  date: "1"
   title: "The Entity-Relational (ER) Model" 
   link: "Activities/ERModel"
   readings:
   - rtitle: "DD Ch. 8"
     rlink: false   
-- week: "6"
-  date: "0"
+- week: "5"
+  date: "2"
   title: "The Structured Query Language (SQL)" 
   link: "Activities/SQL"
   readings:
   - rtitle: "DD Ch. 15"
     rlink: false
 - week: "6"
+  date: "0"
+  title: "The Structured Query Language (SQL)"
+- week: "6"
   date: "1"
   title: "The Structured Query Language (SQL)"
 - week: "6"
   date: "2"
-  title: "The Structured Query Language (SQL)"
-- week: "7"
-  date: "1"
   title: "Data Integrity"
   link: "Activities/DataIntegrity"
   readings:
   - rtitle: "DD Ch. 9"
     rlink: false 
 - week: "7"
-  date: "2"
+  date: "1"
   title: "Facilitating Integrity with Modeling and the SQL Join"
   link: "Activities/Modeling/Join"
   readings:
   - rtitle: "DD Ch. 10"
     rlink: false    
+- week: "7"
+  date: "2"
+  title: "Facilitating Integrity with Modeling and the SQL Join"
 - week: "8"
   date: "0"
   title: "Facilitating Integrity with Modeling and the SQL Join"
