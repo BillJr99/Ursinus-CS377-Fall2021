@@ -103,7 +103,7 @@ DTSTAMP:20210901T000000Z
 DTSTART;VALUE=DATE:20210901
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: Introduction to Databases https://www.techopedia.com/6/28832/enterprise/databases/introduction-to-databases
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -193,7 +193,7 @@ DTSTAMP:20210915T000000Z
 DTSTART;VALUE=DATE:20210915
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RDS/Aggregating\nReading: DD Ch. 3
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RDS/Aggregating\nReading: DD Ch. 3\nReading: Database Introduction https://comptoolsres.github.io/Database_Introduction.html
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -283,7 +283,7 @@ DTSTAMP:20210929T000000Z
 DTSTART;VALUE=DATE:20210929
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nReading: PyMySQL Python Library https://pypi.org/project/PyMySQL/\nReading: Sqlite3 Python Library https://docs.python.org/3/library/sqlite3.html\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nReading: PyMySQL Python Library https://pypi.org/project/PyMySQL/\nReading: Sqlite3 Python Library https://docs.python.org/3/library/sqlite3.html\nReading: PostgreSQL Python Library https://www.tutorialspoint.com/postgresql/postgresql_python.htm\nReading: Databases and SQL https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
