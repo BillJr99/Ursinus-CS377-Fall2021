@@ -8,6 +8,7 @@ info:
   goals: 
     - To explain the use of primary and foreign keys in database systems
     - To aggregate records across multiple tables with referential keys
+    - To express basic queries in the programmatic language SQL (Structured Query Language)
     
   models:
     - model: |
@@ -35,6 +36,73 @@ info:
         - "Using your new table structure, describe an algorithm to determine the average age of students enrolled in CS377."
         - "What other types of aggregation functions might be useful across these tables?"
         - "Extend the course database to show enrollments in a particular semester; once the class agrees on a design, draw out the tables and data including the key values."
+    - model: |
+        <script type="syntaxhighlighter" class="brush: sql"><![CDATA[        
+        -- Students Table
+        CREATE TABLE STUDENTS (
+            ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+            FirstName TEXT NOT NULL, 
+            LastName TEXT NOT NULL, 
+            Age INTEGER
+        );
+
+        INSERT INTO STUDENTS (FirstName, LastName, Age) VALUES ("Alex", "Smith", 20);
+        INSERT INTO STUDENTS (FirstName, LastName, Age) VALUES ("Lee", "Jones", 21);
+        INSERT INTO STUDENTS (FirstName, LastName, Age) VALUES ("Brian", "McMullen", 18);
+        INSERT INTO STUDENTS (FirstName, LastName, Age) VALUES ("Samantha", "Johnson", 22);
+        INSERT INTO STUDENTS (FirstName, LastName, Age) VALUES ("Lee", "Jones", 24);
+
+        -- Courses Table
+        CREATE TABLE COURSES (
+          ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+          CourseNum TEXT NOT NULL, 
+          CourseName TEXT NOT NULL
+        );
+
+        INSERT INTO COURSES (CourseNum, CourseName) VALUES ("CS377", "Database Design");
+        INSERT INTO COURSES (CourseNum, CourseName) VALUES ("CS173", "Intro to Computer Science");
+        INSERT INTO COURSES (CourseNum, CourseName) VALUES ("CS174", "Object Oriented Programming");
+        INSERT INTO COURSES (CourseNum, CourseName) VALUES ("CS275", "Software Engineering");
+
+        -- Try it out
+        SELECT * FROM STUDENTS;
+        SELECT * FROM COURSES;
+
+        -- Link the Tables Together with Primary and Foreign Keys
+        CREATE TABLE ENROLLMENTS (
+          ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+          StudentID INTEGER NOT NULL, 
+          CourseID INTEGER NOT NULL, 
+          FOREIGN KEY(StudentID) REFERENCES STUDENTS(ID), 
+          FOREIGN KEY(CourseID) REFERENCES COURSES(ID)
+        );
+
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (1, 1);
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (2, 1);
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (3, 2);
+
+        SELECT * FROM ENROLLMENTS;
+
+        -- Join
+        SELECT * FROM ENROLLMENTS 
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID;
+
+        -- Aggregation
+        SELECT 
+          COUNT(ENROLLMENTS.ID) AS NumStudents, 
+          AVG(STUDENTS.Age) AS AvgAge 
+        FROM ENROLLMENTS
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID
+        WHERE COURSES.CourseNum = "CS377";
+        ]]></script>
+      title: The Structured Query Language (SQL)
+      questions:
         - "Modify the SQL code example below to incorporate the revisions that the class has recommended."
       embed: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
@@ -44,6 +112,7 @@ tags:
   - aggregation
   - keys
   - rds
+  - sql
   
 ---
 
