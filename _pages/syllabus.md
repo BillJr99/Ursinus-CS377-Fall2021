@@ -270,7 +270,11 @@ schedule:
     rubricpath: "_pages/Labs/lab-schemas.md"      
   readings:
   - rtitle: "DD Ch. 6-7"
-    rlink: false  
+    rlink: false
+  - rlink: https://pypi.org/project/PyMySQL/
+    rtitle: PyMySQL Python Library
+  - rlink: https://docs.python.org/3/library/sqlite3.html
+    rtitle: Sqlite3 Python Library    
 - week: "4"
   date: "2"
   title: "The Relational Database Model and Database Programming Primer"   
