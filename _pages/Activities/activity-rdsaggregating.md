@@ -103,6 +103,10 @@ info:
         ]]></script>
       title: The Structured Query Language (SQL)
       questions:
+        - "Which statements create tables, and which statements insert records into tables?"
+        - "What is unique about the ID columns?  What does <code>AUTOINCREMENT</code> mean?"
+        - "What are the values of the <code>STUDENTS</code> and <code>COURSES</code> tables?"
+        - "What do you think the <code>INNER JOIN</code> keyword does, and what do you think the resulting table looks like?"
         - "Modify the SQL code example below to incorporate the revisions that the class has recommended."
       embed: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
