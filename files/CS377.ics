@@ -283,7 +283,7 @@ DTSTAMP:20210929T000000Z
 DTSTART;VALUE=DATE:20210929
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nReading: PyMySQL Python Library https://pypi.org/project/PyMySQL/\nReading: Sqlite3 Python Library https://docs.python.org/3/library/sqlite3.html\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
