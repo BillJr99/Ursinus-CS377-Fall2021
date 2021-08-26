@@ -18,6 +18,7 @@ info:
         - "What should happen if a particular field does not have a value?"
         - "Two records are sometimes linked together; what do you think this means in this application?"
         - "The two records are somewhat different; how, and what should be done about this?"
+        - "What field(s) are most likely to be unique throughout the table?  These are referred to as a <strong>key</strong>, but a single serial number is often used instead to guarantee uniqueness."
     - model: |
         <img alt="An Example Gradebook" src="https://s3.amazonaws.com/kb-media.populi.co/course_gradebook_editing_grades.png">
       title: "Internal Consistency"
