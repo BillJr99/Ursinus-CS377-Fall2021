@@ -16,7 +16,7 @@ info:
         <span>\(SSN, PhoneNumber \longrightarrow Name, PhoneNumber\)</span>
         <br>
         <span>\(SSN \longrightarrow Name\)</span>, <span>\(Name \longrightarrow Address\)</span>
-      title: Determinant / Dependent Relationships
+      title: "Determinant / Dependent Relationships"
       questions:
         - "What is the <strong>determinant</strong> attribute and the <strong>dependent</strong> attribute above?  In other words, if you know the determinant, you can look up the dependent value?"
         - "What determinant / dependent relationships can you find from the data schema in the <a href=\"./ERModel\">ER Modeling Activity</a>?"
