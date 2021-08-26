@@ -18,7 +18,10 @@ info:
         <span>\(SSN \longrightarrow Name\)</span>, <span>\(Name \longrightarrow Address\)</span>
       title: "Determinant / Dependent Relationships"
       questions:
-        - "abc"      
+        - "What is the <strong>determinant</strong> attribute and the <strong>dependent</strong> attribute above?  In other words, if you know the determinant, you can look up the dependent value?"
+        - "What determinant / dependent relationships can you find from the data schema in the <a href=\"./ERModel\">ER Modeling Activity</a>?"
+        - "Is a primary key a determinant or a dependent?  How about records with a foreign key?"
+    
     - model: |
         <img src="../../images/unnormalized.png" alt="Unnormalized data schema from https://en.wikipedia.org/wiki/Database_normalization under a Creative Commons Attribution-ShareAlike License">
         <br>
