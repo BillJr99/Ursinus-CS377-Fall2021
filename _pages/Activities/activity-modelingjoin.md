@@ -8,7 +8,6 @@ info:
   goals: 
     - To model table joins
     - To differentiate between the different type of joins
-    - To implement table joins in SQL and programmatically
     - To identify potential anomalies in data schemas
     - To take steps to normalize data schemas to avoid anomalies
   additional_reading:
@@ -47,7 +46,6 @@ info:
 tags:
   - join
   - sql
-  - programming
   
 ---
 
