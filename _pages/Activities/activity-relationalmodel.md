@@ -27,6 +27,7 @@ info:
       questions:
         - "If the <strong>domain</strong> of the <code>Age</code> field is all positive numbers <code>Age > 0</code>, what is the domain of <code>FirstName</code>?"
         - "Translate the cartesian product formula into your own words describing the nature of the table it defines."
+        - "This table relation has degree 3.  What do you think that means?"
         - "Is it ever appropriate to have the same row in a table more than once?  What is the alternative if such a situation is needed?"
         - "Suppose you wish to track the history and provenance of a record.  For example, if someone changes their name, a record of both names and the dates during which each name was valid would be included.  What tables and fields might you add to do this?"
     - model: |
