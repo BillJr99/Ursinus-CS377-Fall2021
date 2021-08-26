@@ -21,7 +21,8 @@ info:
         - "What is the <strong>determinant</strong> attribute and the <strong>dependent</strong> attribute above?  In other words, if you know the determinant, you can look up the dependent value?"
         - "What determinant / dependent relationships can you find from the data schema in the <a href=\"./ERModel\">ER Modeling Activity</a>?"
         - "Is a primary key a determinant or a dependent?  How about records with a foreign key?"
-    
+        - "Describe, in your own words, the axiom of augmentation from the second rule above."
+        - "The <code>Phone Number</code> field should not be part of the primary key; how can we break up this relationship to create a normalized schema?"    
     - model: |
         <img src="../../images/unnormalized.png" alt="Unnormalized data schema from https://en.wikipedia.org/wiki/Database_normalization under a Creative Commons Attribution-ShareAlike License">
         <br>
