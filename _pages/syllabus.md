@@ -312,7 +312,7 @@ schedule:
     points: 100    
     rubricpath: "_pages/Labs/lab-schemas.md"        
   readings:
-  - rtitle: "DD Ch. 15"
+  - rtitle: "DD Ch. 15-16"
     rlink: false
 - week: "6"
   date: "0"

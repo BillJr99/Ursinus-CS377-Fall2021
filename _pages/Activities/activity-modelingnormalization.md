@@ -11,7 +11,16 @@ info:
     
   models:
     - model: |
-        <img src="../images/unnormalized.png" alt="Unnormalized data schema from https://en.wikipedia.org/wiki/Database_normalization under a Creative Commons Attribution-ShareAlike License">
+        <span>\(SSN \longrightarrow Name\)</span>
+        <br>
+        <span>\(SSN, PhoneNumber \longrightarrow Name, PhoneNumber\)</span>
+        <br>
+        <span>\(SSN \longrightarrow Name\)</span>, <span>\(Name \longrightarrow Address\)</span>
+      title: "Determinant / Dependent Relationships"
+      questions:
+        - "abc"      
+    - model: |
+        <img src="../../images/unnormalized.png" alt="Unnormalized data schema from https://en.wikipedia.org/wiki/Database_normalization under a Creative Commons Attribution-ShareAlike License">
         <br>
         There are many normal forms, and you have been following <strong>unnormalized form</strong> already because you incorporate a primary key in your tables!  We will explore first, second, and third normal forms.
       title: Normalization and Normal Forms
