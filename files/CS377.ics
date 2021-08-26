@@ -382,7 +382,7 @@ DTSTAMP:20211020T000000Z
 DTSTART;VALUE=DATE:20211020
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Join\nReading: DD Ch. 10
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Join\nReading: DD Ch. 10\nReading: SQL Joins https://en.wikipedia.org/wiki/Join_(SQL)
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
