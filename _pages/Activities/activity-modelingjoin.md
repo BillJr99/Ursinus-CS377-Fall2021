@@ -1,13 +1,18 @@
 ---
 layout: activity
 permalink: /Activities/Modeling/Join
-title: "CS173: Intro to Computer Science - Data Modeling and the Join"
-excerpt: "CS173: Intro to Computer Science - Data Modeling and the Join"
+title: "CS377: Database Design - Data Modeling and the Join"
+excerpt: "CS377: Database Design - Data Modeling and the Join"
 
 info:
   goals: 
-    - abc
-    
+    - To model table joins
+    - To differentiate between the different type of joins
+    - To implement table joins in SQL and programmatically
+  additional_reading:
+    - title: "SQL Joins"
+      link: "https://en.wikipedia.org/wiki/Join_(SQL)"
+  
   models:
     - model: |
         abc
@@ -16,6 +21,9 @@ info:
         - "abc"
         
 tags:
-  - abc  
+  - join
+  - sql
+  - programming
+  
 ---
 

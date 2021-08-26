@@ -339,6 +339,8 @@ schedule:
   readings:
   - rtitle: "DD Ch. 10"
     rlink: false    
+  - rtitle: "SQL Joins"
+    rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"
 - week: "7"
   date: "2"
   title: "Facilitating Integrity with Modeling and the SQL Join"
