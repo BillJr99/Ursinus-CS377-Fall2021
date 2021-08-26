@@ -28,7 +28,7 @@ info:
         - What do the curly braces represent?
         - What does the square bracket represent?
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/WeatherClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonWeatherClient?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
     - model: |
         <div align="left">
         <pre>
