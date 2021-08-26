@@ -32,6 +32,9 @@ info:
       title: Advanced SQL Queries
       questions:
         - "Write a Python program to implement this database and queries."
+        - "Add a statement to <code>UPDATE</code> a column in this database."
+        - "Add a statement to <code>DELETE</code> a column in this database."
+        - "Deleting records can be dangerous if your query has an error, and you may wish to preserve the record history and provenance, anyway.  What is an alternative to deleting the record that would cause it to be hidden in your subsequent queries?"
       embed: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-Queries?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>        
     - model: |
