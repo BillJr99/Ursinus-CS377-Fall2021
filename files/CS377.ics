@@ -686,7 +686,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c446
 DTSTAMP:20211208T000000Z
 DTSTART;VALUE=DATE:20211208
-SUMMARY:CS377 Database Design: Lab: Graph Databases with Redis Handed Out
+SUMMARY:CS377 Database Design: Lab: Graph Databases with Redis Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -697,7 +697,7 @@ DTSTAMP:20211208T000000Z
 DTSTART;VALUE=DATE:20211208
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Graph Databases with Redis Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Redis
+DESCRIPTION:\nDeliverable: Lab: Graph Databases with Redis Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Redis
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
