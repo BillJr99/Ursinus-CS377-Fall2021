@@ -587,7 +587,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c43b
 DTSTAMP:20211119T000000Z
 DTSTART;VALUE=DATE:20211119
-SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Handed Out
+SUMMARY:CS377 Database Design: Assignment: Normalization Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -598,14 +598,14 @@ DTSTAMP:20211119T000000Z
 DTSTART;VALUE=DATE:20211119
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Aggregating\nReading: M Ch. 6, 9 (3, 6)\nDeliverable: Assignment: RESTful Web Services Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/RESTful
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Aggregating\nReading: M Ch. 6, 9 (3, 6)\nDeliverable: Assignment: Normalization Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Normalization
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c43d
 DTSTAMP:20211122T000000Z
 DTSTART;VALUE=DATE:20211122
-SUMMARY:CS377 Database Design: Assignment: Normalization Due
+SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -616,7 +616,7 @@ DTSTAMP:20211122T000000Z
 DTSTART;VALUE=DATE:20211122
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels\nReading: Types of NoSQL Databases https://www.mongodb.com/scale/types-of-nosql-databases\nReading: Setting up Redis https://dev.to/ramko9999/host-and-use-redis-for-free-51if\nDeliverable: Assignment: Normalization Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Normalization
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels\nReading: Types of NoSQL Databases https://www.mongodb.com/scale/types-of-nosql-databases\nReading: Setting up Redis https://dev.to/ramko9999/host-and-use-redis-for-free-51if\nDeliverable: Assignment: RESTful Web Services Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/RESTful
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
