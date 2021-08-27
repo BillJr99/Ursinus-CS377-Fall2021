@@ -406,6 +406,11 @@ schedule:
   date: "0"
   title: "NoSQL Data Models: Key-Value, Document, Columnar, and Graph"
   link: "Activities/NoSQL/DataModels"
+  readings:
+  - rtitle: "Types of NoSQL Databases"
+    rlink: "https://www.mongodb.com/scale/types-of-nosql-databases"  
+  - rtitle: "Setting up Redis"
+    rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"    
 - week: "13"
   date: "0"
   title: "Towards Denormalization: Data Modeling with NoSQL"
