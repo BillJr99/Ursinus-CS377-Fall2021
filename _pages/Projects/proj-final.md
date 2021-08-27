@@ -55,7 +55,7 @@ Finally, prepare as a team a project presentation that you will present live to 
 
 ## The Project
 
-For your project, design a database system of your choosing, including table or collection design, relationships, architecture models, and application domain.  Implement a program to collect data for that database system that inserts, queries, and updates values as appropriate to the system proposed.
+For your project, design a database system of your choosing, including table or collection design, relationships, architecture models, and application domain.  Implement a program to collect data for that database system that inserts, queries, and updates values as appropriate to the system proposed.  Your program should utilize a RESTful web service interface for exposing the database functionality to an end user.  You can test your program using curl statements or with a client program.
 
 ## Group Formation
 

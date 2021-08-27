@@ -1,8 +1,8 @@
 ---
 layout: assignment
-permalink: /Assignments/ERModeling
-title: "CS377: Database Design - ER Modeling"
-excerpt: "CS377: Database Design - ER Modeling"
+permalink: /Assignments/Join
+title: "CS377: Database Design - The SQL Join"
+excerpt: "CS377: Database Design - The SQL Join"
 
 info:
   coursenum: CS377
@@ -10,18 +10,18 @@ info:
   goals:
     - To read and interpret relational models for database systems according to specifications
   readings:
-    - rtitle: "The Entity Relational (ER) Model Activity"
-      rlink: "../Activities/ERModel" 
+    - rtitle: "SQL Join Activity"
+      rlink: "../Activities/Modeling/Join" 
       
 tags:
-  - er
+  - joins
   - modeling
   
 ---
 
 ## Written Assignment
 
-Complete Exercises 2, 4, and 5 in Chapter 8 of the Database Design textbook.
+Complete Exercises 1 and 2 in Chapter 10 of the Database Design textbook.
 
 ## Exporting your Project for Submission
 
