@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/RDS
-title: "CS377: Database Design - Text and File Management"
-excerpt: "CS377: Database Design - Text and File Management"
+title: "CS377: Database Design - Relational Database Systems (RDS)"
+excerpt: "CS377: Database Design - Relational Database Systems (RDS)"
 
 info:
   goals: 
@@ -29,6 +29,15 @@ info:
         - "How might you change the hash if you wanted to search by date-of-birth rather than by name?"
         - "If the hash table isn't big enough to hold every possible record hash, what could happen?  What would the drawback be?"
         - "Given that some indices enable <code>O(1)</code> constant time lookups, while others are <code>O(log n)</code> logarithmic time lookup with respect to the number of records <code>n</code>, what might you speculate is the underlying data structure used to create an index?"        
+    - model: |
+        <a title="Ashish.rana44, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CAP_theorem.png"><img width="256" alt="CAP theorem" src="https://upload.wikimedia.org/wikipedia/commons/8/80/CAP_theorem.png"></a>
+        <br>
+        <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="background-color:#000000;border-color:inherit;border-style:solid;border-width:1px;color:#ffffff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">ACID</th><th style="background-color:#000000;border-color:inherit;border-style:solid;border-width:1px;color:#ffffff;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">BASE</th></tr></thead><tbody><tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Atomic</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Basically Available</td></tr><tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Consistent</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Soft State</td></tr><tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Isolated</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Eventual Consistency</td></tr><tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Durable</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></td></tr></tbody></table>
+      title: "ACID and BASE, and the CAP Theorem"
+      questions:
+        - "The CAP Theorem specifies the tradeoff between availability, consistency, and partition tolerance.  What do you think these mean?" 
+        - "Why do you think it is not possible to achieve all three items in the CAP Theorem?"
+        - "How do the ACID and BASE models appear to balance these tradeoffs?"
         
 tags:
   - rds
