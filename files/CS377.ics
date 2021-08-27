@@ -463,7 +463,7 @@ DTSTAMP:20211110T000000Z
 DTSTART;VALUE=DATE:20211110
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/CRUD\nReading: M Ch. 5 (2)
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/CRUD\nReading: M Ch. 5 (2)\nReading: PyMongo Tutorial https://pymongo.readthedocs.io/en/stable/tutorial.html
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
