@@ -45,7 +45,7 @@ info:
         doc = collection.find_one({"_id": id})
         
         # for multiple results
-        cursor = collection.find({"key1": "val1"}).sort("key2")
+        cursor = collection.find({"key1": "val1"}).sort("key2": -1)
         for doc in cursor:
             print(doc['key2'])
                 
@@ -57,6 +57,9 @@ info:
       questions:
         - "Modify the above program to insert records into a datastore and query them, iterating over the results."
         - "Which statements search for items according to their value?"
+        - "How is the sorted cursor sorted?"
+        - "Investigate how to search for records that contain a key called <code>val3</code> in your collection.  <strong>Hint: consider the <code>$exists</code> clause.</strong>"
+        - "By default, multiple items in a <code>find</code> are combined using a boolean <code>AND</code> operation.  Investigate how to search by combining search terms with an <code>OR</code>.  <strong>Hint: Consider the <code>$or</code> clause.</strong>"
     - model: |
         <script type="syntaxhighlighter" class="brush: python"><![CDATA[        
         # TODO: retrieve your collection in a variable called collection
@@ -91,7 +94,7 @@ info:
         <script src="https://gist.github.com/michaeltreat/d3bdc989b54cff969df86484e091fd0c.js"></script>
         <br>
         <script src="https://gist.github.com/leommoore/6751647.js"></script>
-      title: Putting it All Together       
+      title: Putting it All Together with Examples      
         
 tags:
   - nosql  
