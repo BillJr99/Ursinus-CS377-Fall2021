@@ -508,7 +508,7 @@ DTSTAMP:20211122T000000Z
 DTSTART;VALUE=DATE:20211122
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels\nReading: Types of NoSQL Databases https://www.mongodb.com/scale/types-of-nosql-databases\nReading: Setting up Redis https://dev.to/ramko9999/host-and-use-redis-for-free-51if
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
