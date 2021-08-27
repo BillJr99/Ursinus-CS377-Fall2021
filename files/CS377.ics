@@ -337,7 +337,7 @@ DTSTAMP:20211008T000000Z
 DTSTART;VALUE=DATE:20211008
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nReading: SQL Injections from Computerphile https://www.youtube.com/watch?v=_jKylhJtPmI\nReading: Avoiding SQL Injection Attacks by Learning to Execute One https://www.youtube.com/watch?v=ciNHn38EyRc\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
