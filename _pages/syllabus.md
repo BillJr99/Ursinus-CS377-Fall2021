@@ -308,7 +308,12 @@ schedule:
   - dtitle: "Lab: Schemas Due"
     dlink: "Labs/Schemas"
     points: 100    
-    rubricpath: "_pages/Labs/lab-schemas.md"        
+    rubricpath: "_pages/Labs/lab-schemas.md"  
+  - dtitle: "Assignment: ER Modeling Handed Out"
+    dlink: "Labs/ERModeling"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-ermodeling.md"     
+    submission_types: "written"  
   readings:
   - rtitle: "DD Ch. 15-16"
     rlink: false
@@ -338,11 +343,22 @@ schedule:
   date: "1"
   title: "Facilitating Integrity with Modeling and the SQL Join"
   link: "Activities/Modeling/Join"
+  deliverables:
+  - dtitle: "Assignment: ER Modeling Due"
+    dlink: "Labs/ERModeling"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-ermodeling.md"     
+    submission_types: "written"    
   readings:
   - rtitle: "DD Ch. 10"
     rlink: false    
   - rtitle: "SQL Joins"
     rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"
+  deliverables:
+  - dtitle: "Assignment: SQL Programming Handed Out"
+    dlink: "Labs/SQLProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"     
 - week: "7"
   date: "2"
   title: "Facilitating Integrity with Modeling and the SQL Join"
@@ -358,7 +374,12 @@ schedule:
   link: "Activities/Modeling/Normalization"
   readings:
   - rtitle: "DD Ch. 11-12"
-    rlink: false  
+    rlink: false 
+  deliverables:
+  - dtitle: "Assignment: SQL Programming Due"
+    dlink: "Labs/SQLProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"         
 - week: "9"
   date: "0"
   title: "ER Modeling and Normalization"
@@ -394,6 +415,11 @@ schedule:
   readings:
   - rtitle: "Flask RESTful Web Services"
     rlink: "https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask"  
+  deliverables:
+  - dtitle: "Project: Final Project Handed Out"
+    dlink: "Project/Final"
+    points: 100    
+    rubricpath: "_pages/Project/proj-final.md"        
 - week: "11"
   date: "1"
   title: "RESTful Web Services with Databases"  
@@ -438,6 +464,11 @@ schedule:
 - week: "14"
   date: "2"
   title: "Review"
+  deliverables:
+  - dtitle: "Project: Final Project Due"
+    dlink: "Project/Final"
+    points: 100    
+    rubricpath: "_pages/Project/proj-final.md"    
   
 university:
   semester: "Fall"
