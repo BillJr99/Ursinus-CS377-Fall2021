@@ -1,8 +1,8 @@
 ---
 layout: activity
 permalink: /Activities/Cloud
-title: "CS173: Intro to Computer Science - Towards Managed Cloud Database Systems"
-excerpt: "CS173: Intro to Computer Science - Towards Managed Cloud Database Systems"
+title: "CS377: Database Design - Towards Managed Cloud Database Systems"
+excerpt: "CS377: Database Design - Towards Managed Cloud Database Systems"
 
 info:
   goals: 

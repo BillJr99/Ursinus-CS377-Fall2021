@@ -6,7 +6,7 @@ excerpt: "CS377: Database Design - NoSQL Data Models"
 
 info:
   goals: 
-    - To distinguish between four types of NoSQL database models: document, key-value, columnar, and graph
+    - "To distinguish between four types of NoSQL database models: document, key-value, columnar, and graph"
   additional_reading:
     - title: "Types of NoSQL Databases"
       link: "https://www.mongodb.com/scale/types-of-nosql-databases"

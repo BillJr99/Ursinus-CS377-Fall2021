@@ -125,10 +125,8 @@ grade_breakdown:
   weight: "35%"
 - category: "Labs"
   weight: "25%"
-- category: "Quizzes"
-  weight: "10%"  
 - category: "Exercises"
-  weight: "10%"
+  weight: "20%"
 - category: "Final Project"
   weight: "20%"  
 
@@ -413,8 +411,8 @@ schedule:
     rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"    
 - week: "13"
   date: "0"
-  title: "Towards Denormalization: Data Modeling with NoSQL"
-  link: "Activities/NoSQL/Denormalization"
+  title: "Indexing a Denormalized NoSQL Datastore"
+  link: "Activities/NoSQL/Indexing"
   readings:
   - rtitle: "M Ch. 7 (4)"
     rlink: false   
