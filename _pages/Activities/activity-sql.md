@@ -9,6 +9,11 @@ info:
     - To use the SQL language to query and manipulate a database
     - To integrate common programming constructs with SQL language
     - To use a prepared statement to sanitize program inputs used in a SQL query
+  additional_reading:
+    - title: "SQL Injections from Computerphile"
+      link: "https://www.youtube.com/watch?v=_jKylhJtPmI"
+    - title: "Avoiding SQL Injection Attacks by Learning to Execute One"
+      link: "https://www.youtube.com/watch?v=ciNHn38EyRc"
     
   models:
     - model: |

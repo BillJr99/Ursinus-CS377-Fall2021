@@ -312,6 +312,10 @@ schedule:
   readings:
   - rtitle: "DD Ch. 15-16"
     rlink: false
+  - rtitle: "SQL Injections from Computerphile"
+    rlink: "https://www.youtube.com/watch?v=_jKylhJtPmI"
+  - rtitle: "Avoiding SQL Injection Attacks by Learning to Execute One"
+    rlink: "https://www.youtube.com/watch?v=ciNHn38EyRc"    
 - week: "6"
   date: "0"
   title: "The Structured Query Language (SQL)"
