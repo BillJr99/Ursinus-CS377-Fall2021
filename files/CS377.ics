@@ -481,7 +481,7 @@ DTSTAMP:20211115T000000Z
 DTSTART;VALUE=DATE:20211115
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/MongoDB
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/WebServices\nReading: Flask RESTful Web Services https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
