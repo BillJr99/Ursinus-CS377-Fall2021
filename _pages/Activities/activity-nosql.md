@@ -19,6 +19,12 @@ info:
         - What is the format of the data being stored in a NoSQL collection?
         - Do you think you could lookup relational data in a NoSQL collection?  Why or why not?
         - How might a NoSQL collection make things easier when dealing with a web service that communicates JSON between the browser and the server?
+        - "How might a <strong>collection</strong> compare to a table, and what is a <strong>document</strong> in this model?"
+        - "Are collections typically normalized?  How can you tell?"
+        - "What are the implications of denormalized, unstructured data stores?"
+        - "In the code example, what is the collection and what is the document?"
+        - "Which <strong>field</strong> do you think is indexed in the collection?"
+        - "Try inserting an additional document in the code example above, but with a different set of fields.  Does it work?  Based on this, do NoSQL collections have schemas?"
         
 tags:
   - nosql

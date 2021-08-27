@@ -380,6 +380,8 @@ schedule:
   readings:
   - rtitle: "M Ch. 5 (2)"
     rlink: false    
+  - rtitle: "PyMongo Tutorial"
+    rlink: "https://pymongo.readthedocs.io/en/stable/tutorial.html"    
 - week: "10"
   date: "2"
   title: "RESTful CRUD with NoSQL"
