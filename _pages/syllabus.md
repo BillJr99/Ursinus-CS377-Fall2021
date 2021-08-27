@@ -469,7 +469,7 @@ schedule:
   - rtitle: "Types of NoSQL Databases"
     rlink: "https://www.mongodb.com/scale/types-of-nosql-databases"  
   - rtitle: "Setting up Redis"
-    rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if
+    rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"
   deliverables: 
   - dtitle: "Assignment: Normalization Due"
     dlink: "Labs/Normalization"
