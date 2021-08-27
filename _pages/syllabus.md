@@ -512,7 +512,7 @@ schedule:
   date: "1"
   title: "Review"   
   deliverables:
-  - dtitle: "Lab: Graph Databases with Redis Handed Out"
+  - dtitle: "Lab: Graph Databases with Redis Due"
     dlink: "Labs/Redis"
     points: 100    
     rubricpath: "_pages/Labs/lab-redis.md"  
