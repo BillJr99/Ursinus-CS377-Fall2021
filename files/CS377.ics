@@ -517,7 +517,7 @@ DTSTAMP:20211129T000000Z
 DTSTART;VALUE=DATE:20211129
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Denormalization\nReading: M Ch. 7 (4)
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Indexing\nReading: M Ch. 7 (4)
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
