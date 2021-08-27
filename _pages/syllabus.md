@@ -454,10 +454,10 @@ schedule:
   title: "NoSQL Data Processing and Aggregation" 
   link: "Activities/NoSQL/Aggregating"
   deliverables:
-  - dtitle: "Assignment: RESTful Web Services Handed Out"
-    dlink: "Project/RESTful"
+  - dtitle: "Assignment: Normalization Due"
+    dlink: "Labs/Normalization"
     points: 100    
-    rubricpath: "_pages/Project/proj-restful.md"       
+    submission_types: "written"     
   readings:
   - rtitle: "M Ch. 6, 9 (3, 6)"
     rlink: false   
@@ -471,10 +471,10 @@ schedule:
   - rtitle: "Setting up Redis"
     rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"
   deliverables: 
-  - dtitle: "Assignment: Normalization Due"
-    dlink: "Labs/Normalization"
+  - dtitle: "Assignment: RESTful Web Services Handed Out"
+    dlink: "Project/RESTful"
     points: 100    
-    submission_types: "written"           
+    rubricpath: "_pages/Project/proj-restful.md"            
 - week: "13"
   date: "0"
   title: "Indexing a Denormalized NoSQL Datastore"
