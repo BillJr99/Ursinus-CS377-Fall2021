@@ -42,7 +42,7 @@ tags:
 
 In this assignment, you will query an existing large database to answer meaningful questions.
 
-Write a program that uses a database library like `sqlite3` to connect to [this database](
+Write a program that uses the [`sqlite3` database library](https://docs.python.org/3/library/sqlite3.html) to connect to [this database](
 https://github.com/WebucatorTraining/lahman-baseball-mysql/raw/master/lahmansbaseballdb.sqlite) and to execute your queries.
 
 ### About the Dataset

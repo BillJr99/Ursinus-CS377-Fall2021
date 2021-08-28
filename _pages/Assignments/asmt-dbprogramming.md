@@ -49,7 +49,7 @@ In this assignment, you will connect to a web or local database engine and write
 
 ### Connecting to the Database
 
-You can either [install the MySQL database engine](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) locally, [use a web-based database engine like Fauna](https://fauna.com/), or [connect to a database on a web-based data repository such as bit.io](https://bit.io/).  Each option will provide you with connection details for the database, including a username, password, hostname, port number, and possibly a connection string that includes all of this information in a single URI. 
+You can either [install the MySQL database engine](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) locally, [use a web-based database engine like Fauna](https://fauna.com/), or [connect to a database on a web-based data repository such as bit.io](https://bit.io/).  Each option will provide you with connection details for the database, including a username, password, hostname, port number, and possibly a connection string that includes all of this information in a single URI.  You may also use sqlite using the [`sqlite3` library](https://docs.python.org/3/library/sqlite3.html)
 
 Import the appropriate library for the database engine you are using (for example, [bit.io](https://bit.io) uses PostgreSQL), and write a program that implements a database schema of your choosing.  You can be creative here!  Your schema should have at least three tables with relationships to other tables via foreign keys, and at least one of those relationships should be 1:many.  Draw you schema before implementing it.
 

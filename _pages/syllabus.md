@@ -310,7 +310,7 @@ schedule:
     points: 100    
     rubricpath: "_pages/Labs/lab-schemas.md"  
   - dtitle: "Assignment: ER Modeling Handed Out"
-    dlink: "Labs/ERModeling"
+    dlink: "Assignments/ERModeling"
     points: 100    
     submission_types: "written"  
   readings:
@@ -352,7 +352,7 @@ schedule:
   link: "Activities/Modeling/Join"
   deliverables:
   - dtitle: "Assignment: ER Modeling Due"
-    dlink: "Labs/ERModeling"
+    dlink: "Assignments/ERModeling"
     points: 100    
     submission_types: "written"    
   readings:
