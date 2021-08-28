@@ -30,8 +30,8 @@ info:
   class_meets_locations:
   - section:
     - day: "M"
-      starttime: "1:00 AM"
-      endtime: "1:50 AM"
+      starttime: "11:00 AM"
+      endtime: "11:50 AM"
       place: "IDC 116"
     - day: "W"
       starttime: "11:00 AM"
@@ -84,7 +84,7 @@ instructors:
     location: "Pfahler Hall 101L"  
   - day: "T"
     starttime: "11:00 AM"
-    endtime: "2:00 AM"
+    endtime: "2:00 PM"
     location: "Pfahler Hall 101L"        
   - day: "W"
     starttime: "12:00 PM"
