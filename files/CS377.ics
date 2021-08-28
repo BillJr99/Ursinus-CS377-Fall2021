@@ -211,7 +211,7 @@ DTSTAMP:20210915T000000Z
 DTSTART;VALUE=DATE:20210915
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RDS/Aggregating\nReading: DD Ch. 3\nReading: Database Introduction https://comptoolsres.github.io/Database_Introduction.html\nDeliverable: Exercise: Iteration in Python https://www.billmongan.com/Ursinus-CS377-Fall2021/Modules/Python/Iteration/Exercise
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RDS/Aggregating\nReading: DD Ch. 3\nReading: Database Introduction https://comptoolsres.github.io/Database_Introduction.html\nReading: Sqlite Aggregating Functions https://www.sqlite.org/lang_aggfunc.html\nDeliverable: Exercise: Iteration in Python https://www.billmongan.com/Ursinus-CS377-Fall2021/Modules/Python/Iteration/Exercise
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
