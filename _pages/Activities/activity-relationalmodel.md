@@ -25,15 +25,6 @@ info:
         - "This table relation has degree 3.  What do you think that means?"
         - "Is it ever appropriate to have the same row in a table more than once?  What is the alternative if such a situation is needed?"
         - "Suppose you wish to track the history and provenance of a record.  For example, if someone changes their name, a record of both names and the dates during which each name was valid would be included.  What tables and fields might you add to do this?"
-    - model: |
-        <script src="https://gist.github.com/BillJr99/53c92b77f465ba1f7259beeec31f50cb.js"></script>
-        <br>
-        <script src="https://gist.github.com/BillJr99/138231874d9d1c00bab4d20d1ff4267e.js"></script>
-      title: Database Programming and SQL Library Support
-      questions:
-        - "Sketch the database schema implemented with the two programs (they are the same!)"
-        - "What basic aggregation operations can you find in each program?"
-        - "Why do you think there are two versions of this program, one for the Sqlite database engine, and one for the MySQL database engine?"
         
 tags:
   - relational
