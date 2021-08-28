@@ -362,7 +362,7 @@ schedule:
     rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"
   deliverables:
   - dtitle: "Assignment: SQL Programming Handed Out"
-    dlink: "Labs/SQLProgramming"
+    dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"     
 - week: "7"
@@ -388,11 +388,11 @@ schedule:
     rlink: false 
   deliverables:
   - dtitle: "Assignment: SQL Programming Due"
-    dlink: "Labs/SQLProgramming"
+    dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"  
   - dtitle: "Assignment: SQL Joins Handed Out"
-    dlink: "Labs/Join"
+    dlink: "Assignments/Join"
     points: 100    
     submission_types: "written"     
 - week: "9"
@@ -413,13 +413,13 @@ schedule:
   title: "A Non-Relational Database Model: NoSQL"
   deliverables:
   - dtitle: "Assignment: SQL Joins Due"
-    dlink: "Labs/Join"
+    dlink: "Assignments/Join"
     points: 100    
     submission_types: "written" 
   - dtitle: "Assignment: Normalization Handed Out"
-    dlink: "Labs/Normalization"
+    dlink: "Assignments/Normalization"
     points: 100    
-    submission_types: "written"       
+    submission_types: "written"     
 - week: "10"
   date: "1"
   title: "CRUD with NoSQL" 
@@ -444,44 +444,39 @@ schedule:
   - rtitle: "How to use curl"
     rlink: "https://flaviocopes.com/http-curl/"
   deliverables:
-  - dtitle: "Project: Final Project Handed Out"
-    dlink: "Project/Final"
+  - dtitle: "Assignment: Normalization Due"
+    dlink: "Assignments/Normalization"
     points: 100    
-    rubricpath: "_pages/Project/proj-final.md" 
+    submission_types: "written"        
 - week: "11"
   date: "1"
-  title: "RESTful Web Services with Databases"  
-  deliverables:
-  - dtitle: "Lab: Peer Review Handed Out"
-    dlink: "Labs/PeerReview"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-peerreview.md"   
+  title: "RESTful Web Services with Databases"      
 - week: "11"
   date: "2"
   title: "NoSQL Data Processing and Aggregation" 
-  link: "Activities/NoSQL/Aggregating"
-  deliverables:
-  - dtitle: "Assignment: Normalization Due"
-    dlink: "Labs/Normalization"
-    points: 100    
-    submission_types: "written"     
+  link: "Activities/NoSQL/Aggregating"    
   readings:
   - rtitle: "M Ch. 6, 9 (3, 6)"
-    rlink: false   
+    rlink: false 
+  deliverables:
+  - dtitle: "Project: Final Project Handed Out"
+    dlink: "Project/Final"
+    points: 100    
+    rubricpath: "_pages/Project/proj-final.md"     
 - week: "12"
   date: "0"
   title: "NoSQL Data Models: Key-Value, Document, Columnar, and Graph"
   link: "Activities/NoSQL/DataModels"
+  deliverables:
+  - dtitle: "Lab: Graph Databases with Redis Handed Out"
+    dlink: "Labs/Redis"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-redis.md"      
   readings:
   - rtitle: "Types of NoSQL Databases"
     rlink: "https://www.mongodb.com/scale/types-of-nosql-databases"  
   - rtitle: "Setting up Redis"
     rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"
-  deliverables: 
-  - dtitle: "Assignment: RESTful Web Services Handed Out"
-    dlink: "Project/RESTful"
-    points: 100    
-    rubricpath: "_pages/Project/proj-restful.md"            
 - week: "13"
   date: "0"
   title: "Indexing a Denormalized NoSQL Datastore"
@@ -490,14 +485,10 @@ schedule:
   - rtitle: "M Ch. 7 (4)"
     rlink: false  
   deliverables:
-  - dtitle: "Lab: Peer Review Due"
-    dlink: "Labs/PeerReview"
+  - dtitle: "Assignment: RESTful Web Services Handed Out"
+    dlink: "Assignments/RESTful"
     points: 100    
-    rubricpath: "_pages/Labs/lab-peerreview.md"     
-  - dtitle: "Lab: Graph Databases with Redis Handed Out"
-    dlink: "Labs/Redis"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-redis.md"      
+    rubricpath: "_pages/Assignments/asmt-restful.md"             
 - week: "13"
   date: "1"
   title: "Workshop: Toward Scaled Managed Cloud Databases"
@@ -506,15 +497,15 @@ schedule:
     rlink: false   
 - week: "13"
   date: "2"
-  title: "Workshop: Toward Scaled Managed Cloud Databases"  
+  title: "Workshop: Toward Scaled Managed Cloud Databases"    
 - week: "14"
   date: "0"
-  title: "Workshop: Toward Scaled Managed Cloud Databases"    
+  title: "Workshop: Toward Scaled Managed Cloud Databases"     
   deliverables:
-  - dtitle: "Assignment: RESTful Web Services Due"
-    dlink: "Project/RESTful"
+  - dtitle: "Project: Final Project Due"
+    dlink: "Project/Final"
     points: 100    
-    rubricpath: "_pages/Project/proj-restful.md"       
+    rubricpath: "_pages/Project/proj-final.md"   
 - week: "14"
   date: "1"
   title: "Review"   
@@ -522,15 +513,15 @@ schedule:
   - dtitle: "Lab: Graph Databases with Redis Due"
     dlink: "Labs/Redis"
     points: 100    
-    rubricpath: "_pages/Labs/lab-redis.md"  
+    rubricpath: "_pages/Labs/lab-redis.md"     
 - week: "14"
   date: "2"
   title: "Review"
-  deliverables:
-  - dtitle: "Project: Final Project Due"
-    dlink: "Project/Final"
+  deliverables:   
+  - dtitle: "Assignment: RESTful Web Services Due"
+    dlink: "Assignments/RESTful"
     points: 100    
-    rubricpath: "_pages/Project/proj-final.md"    
+    rubricpath: "_pages/Assignments/asmt-restful.md"     
   
 university:
   semester: "Fall"
