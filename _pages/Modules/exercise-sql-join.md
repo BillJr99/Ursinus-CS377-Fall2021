@@ -38,7 +38,8 @@ files:
     name: main
     isreadonly: false
     isvisible: true
-CREATE TABLE PERSON (
+    code: |
+      CREATE TABLE PERSON (
         ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
         FirstName TEXT NOT NULL, 
         LastName TEXT NOT NULL, 
