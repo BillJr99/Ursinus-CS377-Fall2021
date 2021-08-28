@@ -20,7 +20,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString;
   correctcheck: |
-    pos.toLowerCase().includes(String.raw`[{"columns":["FirstName","LastName","Address"],"values":[["Alex","Smith","123 Main Street"],["Susan","Smith","123 Main Street"],["Samantha","Lee","234 Main Street"],["Alex","Lee","234 Main Street"],["Steph","Lee","234 Main Street"]]}]`).toLowerCase() && pos.toLowerCase().includes(String.raw`[{"columns":["Address","HouseholdSalary"],"values":[["234 Main Street",210000],["123 Main Street",50000],["12 Third Street",40000]]}]`).toLowerCase() && pos.toLowerCase().includes(String.raw`[{"columns":["ZIP","HouseholdSalary"],"values":[["19426",52000],["19406",40000]]}]`).toLowerCase()
+    pos.toLowerCase().includes(String.raw`[{"columns":["FirstName","LastName","Address"],"values":[["Alex","Smith","123 Main Street"],["Susan","Smith","123 Main Street"],["Samantha","Lee","234 Main Street"],["Alex","Lee","234 Main Street"],["Steph","Lee","234 Main Street"]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["Address","HouseholdSalary"],"values":[["234 Main Street",210000],["123 Main Street",50000],["12 Third Street",40000]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["ZIP","HouseholdSalary"],"values":[["19426",52000],["19406",40000]]}]`.toLowerCase())
  
 files:
   - filename: "MyJoins.sql"
