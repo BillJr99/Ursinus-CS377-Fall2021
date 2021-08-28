@@ -21,7 +21,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString;
   correctcheck: |
-    pos.toLowerCase().includes(String.raw`[{"columns":["a"],"values":[[42]]}]`)
+    pos.toLowerCase().includes(String.raw`[{"columns":["a"],"values":[[42]]}]`).toLowerCase()
  
 files:
   - filename: "MyFirstStatement.sql"
