@@ -5,17 +5,12 @@ title: "CS377: Database Design - Relational Data Model"
 excerpt: "CS377: Database Design - Relational Data Model"
 
 info:
+  next: ./RelationalModel2
+  
   goals: 
     - To express database table relationships through mathematical abstraction
-    - To implement database schemas into programming constructs using libraries and database engines
     - To describe the advantages and disadvantages of different database engines
   additional_reading:
-    - link: https://pypi.org/project/PyMySQL/
-      title: PyMySQL Python Library
-    - link: https://docs.python.org/3/library/sqlite3.html
-      title: Sqlite3 Python Library
-    - link: https://www.tutorialspoint.com/postgresql/postgresql_python.htm
-      title: PostgreSQL Python Library
     - link: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb
       title: Databases and SQL
   models:
