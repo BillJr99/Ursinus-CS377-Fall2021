@@ -35,7 +35,7 @@ files:
 
   - filename: "Setup.sql"
     ismain: false
-    name: main
+    name: setup
     isreadonly: false
     isvisible: true
     code: |
@@ -90,6 +90,6 @@ files:
     name: main
     isreadonly: true
     isvisible: false
-    code: ""
+    code: "-- setup goes here"
         
 ---
