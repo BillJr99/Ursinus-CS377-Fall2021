@@ -11,7 +11,7 @@ info:
     - To become familiar with the basic structure of a database
     - To write a SQL statement
     
-canvasasmtid: "107081"   
+canvasasmtid: "125434"   
 canvaspoints: 3
   
 processor:  

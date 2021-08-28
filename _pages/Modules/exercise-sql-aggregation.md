@@ -10,7 +10,7 @@ info:
   goals:
     - To write a SQL statement performing an aggregated query
     
-canvasasmtid: "107081"   
+canvasasmtid: "125438"   
 canvaspoints: 3
   
 processor:  
