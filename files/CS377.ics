@@ -346,7 +346,7 @@ DTSTAMP:20211008T000000Z
 DTSTART;VALUE=DATE:20211008
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nReading: SQL Injections from Computerphile https://www.youtube.com/watch?v=_jKylhJtPmI\nReading: Avoiding SQL Injection Attacks by Learning to Execute One https://www.youtube.com/watch?v=ciNHn38EyRc\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas\nDeliverable: Assignment: ER Modeling Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/ERModeling
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nReading: A Gentle Introduction to SQL https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas\nDeliverable: Assignment: ER Modeling Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/ERModeling
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -373,7 +373,7 @@ DTSTAMP:20211013T000000Z
 DTSTART;VALUE=DATE:20211013
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nReading: SQL Injections from Computerphile https://www.youtube.com/watch?v=_jKylhJtPmI\nReading: Avoiding SQL Injection Attacks by Learning to Execute One https://www.youtube.com/watch?v=ciNHn38EyRc
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -562,7 +562,7 @@ DTSTAMP:20211115T000000Z
 DTSTART;VALUE=DATE:20211115
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/WebServices\nReading: Flask RESTful Web Services https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask\nDeliverable: Project: Final Project Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/WebServices\nReading: Flask RESTful Web Services https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask\nReading: Python Requests Library https://realpython.com/python-requests/\nReading: How to use curl https://flaviocopes.com/http-curl/\nDeliverable: Project: Final Project Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
