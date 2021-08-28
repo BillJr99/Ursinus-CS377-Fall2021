@@ -20,7 +20,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString;
   correctcheck: |
-    pos.toLowerCase().includes(String.raw`[{"columns":["NumGrocery"],"values":[[7]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["ProductType","NumItems"],"values":[["Grocery",7],["Produce",15],["Household",20]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["AvgCostProduce"],"values":[[0.41500000000000004]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["ProductType","AvgCost"],"values":[["Grocery",3.245],["Household",1.75],["Produce",0.41500000000000004]]}]`.toLowerCase())
+    pos.toLowerCase().includes(String.raw`[{"columns":["NumGrocery"],"values":[[7]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["ProductType","NumItems"],"values":[["Grocery",7],["Produce",15],["Household",20]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["AvgCostProduce"],"values":[[0.4]]}]`.toLowerCase()) && pos.toLowerCase().includes(String.raw`[{"columns":["ProductType","AvgCost"],"values":[["Grocery",3.25],["Household",1.75],["Produce",0.4]]}]`.toLowerCase())
  
 files:
   - filename: "Aggregation.sql"
