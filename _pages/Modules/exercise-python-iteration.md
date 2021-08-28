@@ -43,8 +43,8 @@ files:
     isvisible: true
     code: |
         ans1 = threeXPlusOne(5)
-        ans1 = threeXPlusOne(27)
-        ans1 = threeXPlusOne(17)
+        ans2 = threeXPlusOne(27)
+        ans3 = threeXPlusOne(17)
         print(str(ans1) + "-" + str(ans2) + "-" + str(ans3))
         
 ---
