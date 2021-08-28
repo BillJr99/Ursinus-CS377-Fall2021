@@ -267,6 +267,7 @@ mynetid: wmongan
                 stmt += ';';
                 
                 if(!(stmt.trim().startsWith("--")) && lines[i].trim().length >= 1) {
+                    console.log("Executing: " + stmt);
                     const res = db.exec(stmt);
                     const resStr = JSON.stringify(res);
                     feedbackString += resStr + '\n';
