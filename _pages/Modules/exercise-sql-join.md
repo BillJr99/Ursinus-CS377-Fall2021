@@ -23,8 +23,8 @@ processor:
     pos.toLowerCase().includes("42")
  
 files:
-  - filename: "MyFirstStatement.sql"
-    name: myfirststatement
+  - filename: "MyJoins.sql"
+    name: myjoins
     ismain: false
     isreadonly: false
     isvisible: true
@@ -34,12 +34,11 @@ files:
         -- TODO: List the average household salary by zip code, in descending order by salary
 
   - filename: "Setup.sql"
-    ismain: true
+    ismain: false
     name: main
-    isreadonly: true
+    isreadonly: false
     isvisible: true
-    code: |
-      CREATE TABLE PERSON (
+CREATE TABLE PERSON (
         ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
         FirstName TEXT NOT NULL, 
         LastName TEXT NOT NULL, 
@@ -84,5 +83,12 @@ files:
       INSERT INTO HOUSEHOLDMEMBER(HouseID, PersonID) VALUES(2, 5);
 
       INSERT INTO HOUSEHOLDMEMBER(HouseID, PersonID) VALUES(3, 6);
+      
+  - filename: "Main.sql"
+    ismain: true
+    name: main
+    isreadonly: true
+    isvisible: false
+    code: ""
         
 ---
