@@ -2,6 +2,7 @@ updatecanvas.sh
 uploadghclassroom.sh
 updatecalendar.sh
 geckodriver.log
+eralchemy.sh
 do-jekyll.sh
 text2qti.sh
 Gemfile

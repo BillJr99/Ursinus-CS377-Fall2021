@@ -12,6 +12,10 @@ info:
       link: "https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask"
     - title: "Authentication with Flask"
       link: "https://blog.miguelgrinberg.com/post/restful-authentication-with-flask"
+    - title: "Python Requests Library"
+      link: "https://realpython.com/python-requests/"
+    - title: "How to use curl"
+      link: "https://flaviocopes.com/http-curl/"      
     
   models:
     - model: |
@@ -23,7 +27,19 @@ info:
         - "What HTTP <strong>methods</strong> (or verbs) do you see in this program?  To what part of the CRUD model does each correspond?"
         - "What happens if you request a person ID that doesn't exist?"
         - "Investigate what it means to be a <strong>RESTful</strong> web service?"
+        - "Investigate how to use <a href=\"https://curl.se/docs/manpage.html\">curl</a> to invoke these web services."
         - "How would you modify this example to incorporate a NoSQL database backend?  How about a relational database backend?"
+    - model: |
+        <script type="syntaxhighlighter" class="brush: python"><![CDATA[        
+        import requests
+        
+        resp = requests.post("http://127.0.0.1/api/v1/person", json={"age": 38, "name": "Alex"}, headers={'Accept': 'application/json'})
+        ]]></script>
+      title: Making a Web Service Client Request
+      questions:
+        - "How might you make an HTTP get request to retrieve the set of people from your example web service?"
+        - "Investigate how to add authentication to an HTTP request."
+        - "How would you make these requests using curl?"
         
 tags:
   - nosql

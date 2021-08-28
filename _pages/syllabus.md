@@ -122,13 +122,13 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "35%"
+  weight: "40%"
 - category: "Labs"
-  weight: "25%"
+  weight: "30%"
 - category: "Exercises"
-  weight: "20%"
+  weight: "15%"
 - category: "Final Project"
-  weight: "20%"  
+  weight: "15%"  
 
 letter_grades:
 - letter: "A+"
@@ -316,10 +316,8 @@ schedule:
   readings:
   - rtitle: "DD Ch. 15-16"
     rlink: false
-  - rtitle: "SQL Injections from Computerphile"
-    rlink: "https://www.youtube.com/watch?v=_jKylhJtPmI"
-  - rtitle: "Avoiding SQL Injection Attacks by Learning to Execute One"
-    rlink: "https://www.youtube.com/watch?v=ciNHn38EyRc"    
+  - rtitle: "A Gentle Introduction to SQL"
+    rlink: "https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/"
 - week: "6"
   date: "0"
   title: "The Structured Query Language (SQL)"
@@ -331,6 +329,11 @@ schedule:
 - week: "6"
   date: "1"
   title: "The Structured Query Language (SQL)"
+  readings:
+  - rtitle: "SQL Injections from Computerphile"
+    rlink: "https://www.youtube.com/watch?v=_jKylhJtPmI"
+  - rtitle: "Avoiding SQL Injection Attacks by Learning to Execute One"
+    rlink: "https://www.youtube.com/watch?v=ciNHn38EyRc"      
 - week: "6"
   date: "2"
   title: "Data Integrity"
@@ -436,6 +439,10 @@ schedule:
   readings:
   - rtitle: "Flask RESTful Web Services"
     rlink: "https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask"  
+  - rtitle: "Python Requests Library"
+    rlink: "https://realpython.com/python-requests/"
+  - rtitle: "How to use curl"
+    rlink: "https://flaviocopes.com/http-curl/"
   deliverables:
   - dtitle: "Project: Final Project Handed Out"
     dlink: "Project/Final"
