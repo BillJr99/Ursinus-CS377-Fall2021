@@ -493,7 +493,7 @@ schedule:
   - dtitle: "Project: Final Project Handed Out"
     dlink: "Projects/Final"
     points: 100    
-    rubricpath: "_pages/Project/proj-final.md"     
+    rubricpath: "_pages/Projects/proj-final.md"     
 - week: "12"
   date: "0"
   title: "NoSQL Data Models: Key-Value, Document, Columnar, and Graph"
@@ -540,7 +540,7 @@ schedule:
   - dtitle: "Project: Final Project Due"
     dlink: "Projects/Final"
     points: 100    
-    rubricpath: "_pages/Project/proj-final.md"   
+    rubricpath: "_pages/Projects/proj-final.md"   
 - week: "14"
   date: "1"
   title: "Review"   
