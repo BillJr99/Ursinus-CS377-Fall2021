@@ -124,11 +124,11 @@ grade_breakdown:
 - category: "Programming Assignments"
   weight: "40%"
 - category: "Labs"
-  weight: "30%"
+  weight: "25%"
 - category: "Exercises"
   weight: "15%"
 - category: "Final Project"
-  weight: "15%"  
+  weight: "20%"  
 
 letter_grades:
 - letter: "A+"
@@ -198,6 +198,11 @@ schedule:
   date: "1"
   title: "Organizing Data: Fields, Records, and Keys"
   link: "Activities/OrganizingData"
+  deliverables:
+  - dtitle: "Exercise: Quadratic Formula in Python"
+    dlink: "Modules/Python/Warmup/Exercise"
+    points: 3
+    submission_types: "written"
   readings:
   - rtitle: "DD Ch. 2"
     rlink: false  
@@ -222,6 +227,11 @@ schedule:
   date: "1"
   title: "Processing and Aggregating Data Records"
   link: "Activities/RDS/Aggregating"
+  deliverables:
+  - dtitle: "Exercise: Iteration in Python"
+    dlink: "Modules/Python/Iteration/Exercise"
+    points: 3
+    submission_types: "written"  
   readings:
   - rtitle: "DD Ch. 3"
     rlink: false 
@@ -329,6 +339,11 @@ schedule:
 - week: "6"
   date: "1"
   title: "The Structured Query Language (SQL)"
+  deliverables:
+  - dtitle: "Exercise: SQL Warmup"
+    dlink: "Modules/SQL/Warmup/Exercise"
+    points: 3
+    submission_types: "written"   
   readings:
   - rtitle: "SQL Injections from Computerphile"
     rlink: "https://www.youtube.com/watch?v=_jKylhJtPmI"
@@ -368,6 +383,11 @@ schedule:
 - week: "7"
   date: "2"
   title: "Facilitating Integrity with Modeling and the SQL Join"
+  deliverables:
+  - dtitle: "Exercise: SQL Aggregation"
+    dlink: "Modules/SQL/Aggregation/Exercise"
+    points: 3
+    submission_types: "written"   
 - week: "8"
   date: "0"
   title: "Facilitating Integrity with Modeling and the SQL Join"
@@ -379,6 +399,11 @@ schedule:
 - week: "8"
   date: "1"
   title: "Facilitating Integrity with Modeling and the SQL Join"
+  deliverables:
+  - dtitle: "Exercise: SQL Joins"
+    dlink: "Modules/SQL/Join/Exercise"
+    points: 3
+    submission_types: "written"     
 - week: "8"
   date: "2"
   title: "ER Modeling and Normalization"
@@ -464,7 +489,7 @@ schedule:
     rlink: false 
   deliverables:
   - dtitle: "Project: Final Project Handed Out"
-    dlink: "Project/Final"
+    dlink: "Projects/Final"
     points: 100    
     rubricpath: "_pages/Project/proj-final.md"     
 - week: "12"
@@ -511,7 +536,7 @@ schedule:
   title: "Workshop: Toward Scaled Managed Cloud Databases"     
   deliverables:
   - dtitle: "Project: Final Project Due"
-    dlink: "Project/Final"
+    dlink: "Projects/Final"
     points: 100    
     rubricpath: "_pages/Project/proj-final.md"   
 - week: "14"
