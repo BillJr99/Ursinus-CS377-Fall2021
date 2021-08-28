@@ -409,7 +409,7 @@ DTSTAMP:20211020T000000Z
 DTSTART;VALUE=DATE:20211020
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Join\nReading: DD Ch. 10\nReading: SQL Joins https://en.wikipedia.org/wiki/Join_(SQL)\nDeliverable: Assignment: SQL Programming Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/SQLProgramming
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Join\nReading: DD Ch. 10\nReading: SQL Joins https://en.wikipedia.org/wiki/Join_(SQL)\nDeliverable: Assignment: SQL Programming Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/SQLProgramming
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -472,7 +472,7 @@ DTSTAMP:20211029T000000Z
 DTSTART;VALUE=DATE:20211029
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Normalization\nReading: DD Ch. 11-12\nDeliverable: Assignment: SQL Programming Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/SQLProgramming\nDeliverable: Assignment: SQL Joins Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Join
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Normalization\nReading: DD Ch. 11-12\nDeliverable: Assignment: SQL Programming Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/SQLProgramming\nDeliverable: Assignment: SQL Joins Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Join
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -526,7 +526,7 @@ DTSTAMP:20211108T000000Z
 DTSTART;VALUE=DATE:20211108
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Assignment: SQL Joins Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Join\nDeliverable: Assignment: Normalization Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Normalization
+DESCRIPTION:\nDeliverable: Assignment: SQL Joins Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Join\nDeliverable: Assignment: Normalization Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Normalization
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -551,7 +551,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c437
 DTSTAMP:20211115T000000Z
 DTSTART;VALUE=DATE:20211115
-SUMMARY:CS377 Database Design: Project: Final Project Handed Out
+SUMMARY:CS377 Database Design: Assignment: Normalization Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -562,92 +562,74 @@ DTSTAMP:20211115T000000Z
 DTSTART;VALUE=DATE:20211115
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/WebServices\nReading: Flask RESTful Web Services https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask\nReading: Python Requests Library https://realpython.com/python-requests/\nReading: How to use curl https://flaviocopes.com/http-curl/\nDeliverable: Project: Final Project Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/WebServices\nReading: Flask RESTful Web Services https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask\nReading: Python Requests Library https://realpython.com/python-requests/\nReading: How to use curl https://flaviocopes.com/http-curl/\nDeliverable: Assignment: Normalization Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Normalization
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c439
 DTSTAMP:20211117T000000Z
 DTSTART;VALUE=DATE:20211117
-SUMMARY:CS377 Database Design: Lab: Peer Review Handed Out
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c43a
-DTSTAMP:20211117T000000Z
-DTSTART;VALUE=DATE:20211117
-SUMMARY:CS377 Database Design: Class Meeting
+DTSTAMP:20211119T000000Z
+DTSTART;VALUE=DATE:20211119
+SUMMARY:CS377 Database Design: Project: Final Project Handed Out
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Peer Review Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/PeerReview
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c43b
 DTSTAMP:20211119T000000Z
 DTSTART;VALUE=DATE:20211119
-SUMMARY:CS377 Database Design: Assignment: Normalization Due
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Aggregating\nReading: M Ch. 6, 9 (3, 6)\nDeliverable: Project: Final Project Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c43c
-DTSTAMP:20211119T000000Z
-DTSTART;VALUE=DATE:20211119
-SUMMARY:CS377 Database Design: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Aggregating\nReading: M Ch. 6, 9 (3, 6)\nDeliverable: Assignment: Normalization Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Normalization
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c43d
 DTSTAMP:20211122T000000Z
 DTSTART;VALUE=DATE:20211122
-SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c43e
-DTSTAMP:20211122T000000Z
-DTSTART;VALUE=DATE:20211122
-SUMMARY:CS377 Database Design: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels\nReading: Types of NoSQL Databases https://www.mongodb.com/scale/types-of-nosql-databases\nReading: Setting up Redis https://dev.to/ramko9999/host-and-use-redis-for-free-51if\nDeliverable: Assignment: RESTful Web Services Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/RESTful
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c43f
-DTSTAMP:20211129T000000Z
-DTSTART;VALUE=DATE:20211129
-SUMMARY:CS377 Database Design: Lab: Peer Review Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c440
-DTSTAMP:20211129T000000Z
-DTSTART;VALUE=DATE:20211129
 SUMMARY:CS377 Database Design: Lab: Graph Databases with Redis Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c441
+UID:00000000-0000-0000-0000-036dc582c43d
+DTSTAMP:20211122T000000Z
+DTSTART;VALUE=DATE:20211122
+SUMMARY:CS377 Database Design: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/DataModels\nReading: Types of NoSQL Databases https://www.mongodb.com/scale/types-of-nosql-databases\nReading: Setting up Redis https://dev.to/ramko9999/host-and-use-redis-for-free-51if\nDeliverable: Lab: Graph Databases with Redis Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Redis
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-036dc582c43e
+DTSTAMP:20211129T000000Z
+DTSTART;VALUE=DATE:20211129
+SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:00000000-0000-0000-0000-036dc582c43f
 DTSTAMP:20211129T000000Z
 DTSTART;VALUE=DATE:20211129
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Indexing\nReading: M Ch. 7 (4)\nDeliverable: Lab: Peer Review Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/PeerReview\nDeliverable: Lab: Graph Databases with Redis Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Redis
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Indexing\nReading: M Ch. 7 (4)\nDeliverable: Assignment: RESTful Web Services Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/RESTful
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c442
+UID:00000000-0000-0000-0000-036dc582c440
 DTSTAMP:20211201T000000Z
 DTSTART;VALUE=DATE:20211201
 SUMMARY:CS377 Database Design: Class Meeting
@@ -656,7 +638,7 @@ DESCRIPTION:\nReading: M Ch. 10 (7)
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c443
+UID:00000000-0000-0000-0000-036dc582c441
 DTSTAMP:20211203T000000Z
 DTSTART;VALUE=DATE:20211203
 SUMMARY:CS377 Database Design: Class Meeting
@@ -665,25 +647,25 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c444
+UID:00000000-0000-0000-0000-036dc582c442
 DTSTAMP:20211206T000000Z
 DTSTART;VALUE=DATE:20211206
-SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Due
+SUMMARY:CS377 Database Design: Project: Final Project Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c445
+UID:00000000-0000-0000-0000-036dc582c443
 DTSTAMP:20211206T000000Z
 DTSTART;VALUE=DATE:20211206
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Assignment: RESTful Web Services Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/RESTful
+DESCRIPTION:\nDeliverable: Project: Final Project Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c446
+UID:00000000-0000-0000-0000-036dc582c444
 DTSTAMP:20211208T000000Z
 DTSTART;VALUE=DATE:20211208
 SUMMARY:CS377 Database Design: Lab: Graph Databases with Redis Due
@@ -692,7 +674,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c447
+UID:00000000-0000-0000-0000-036dc582c445
 DTSTAMP:20211208T000000Z
 DTSTART;VALUE=DATE:20211208
 SUMMARY:CS377 Database Design: Class Meeting
@@ -701,25 +683,25 @@ DESCRIPTION:\nDeliverable: Lab: Graph Databases with Redis Due https://www.billm
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c448
+UID:00000000-0000-0000-0000-036dc582c446
 DTSTAMP:20211210T000000Z
 DTSTART;VALUE=DATE:20211210
-SUMMARY:CS377 Database Design: Project: Final Project Due
+SUMMARY:CS377 Database Design: Assignment: RESTful Web Services Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c449
+UID:00000000-0000-0000-0000-036dc582c447
 DTSTAMP:20211210T000000Z
 DTSTART;VALUE=DATE:20211210
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Project: Final Project Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Project/Final
+DESCRIPTION:\nDeliverable: Assignment: RESTful Web Services Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/RESTful
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44a
+UID:00000000-0000-0000-0000-036dc582c448
 DTSTAMP:20210830T120000
 DTSTART;TZID=US-Eastern:20210830T120000
 DTEND;TZID=US-Eastern:20210830T140000
@@ -739,7 +721,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44b
+UID:00000000-0000-0000-0000-036dc582c449
 DTSTAMP:20210830T110000
 DTSTART;TZID=US-Eastern:20210830T110000
 DTEND;TZID=US-Eastern:20210830T140000
@@ -759,7 +741,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44c
+UID:00000000-0000-0000-0000-036dc582c44a
 DTSTAMP:20210830T120000
 DTSTART;TZID=US-Eastern:20210830T120000
 DTEND;TZID=US-Eastern:20210830T140000
@@ -779,7 +761,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44d
+UID:00000000-0000-0000-0000-036dc582c44b
 DTSTAMP:20210830T120000
 DTSTART;TZID=US-Eastern:20210830T120000
 DTEND;TZID=US-Eastern:20210830T140000
@@ -799,7 +781,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44e
+UID:00000000-0000-0000-0000-036dc582c44c
 DTSTAMP:20210910T000000Z
 DTSTART;VALUE=DATE:20210910
 SUMMARY:Add Deadline
@@ -808,7 +790,7 @@ DESCRIPTION:Add Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c44f
+UID:00000000-0000-0000-0000-036dc582c44d
 DTSTAMP:20211015T000000Z
 DTSTART;VALUE=DATE:20211015
 SUMMARY:Mid Semester Grades Posted
@@ -817,7 +799,7 @@ DESCRIPTION:Mid Semester Grades Posted
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c450
+UID:00000000-0000-0000-0000-036dc582c44e
 DTSTAMP:20211027T000000Z
 DTSTART;VALUE=DATE:20211027
 SUMMARY:Drop with a W Deadline
@@ -826,7 +808,7 @@ DESCRIPTION:Drop with a W Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c451
+UID:00000000-0000-0000-0000-036dc582c44f
 DTSTAMP:20211211T000000Z
 DTSTART;VALUE=DATE:20211211
 SUMMARY:Reading Day
@@ -835,7 +817,7 @@ DESCRIPTION:Reading Day
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c452
+UID:00000000-0000-0000-0000-036dc582c450
 DTSTAMP:20211213T000000Z
 DTSTART;VALUE=DATE:20211213
 SUMMARY:Finals Week Begins
@@ -844,7 +826,7 @@ DESCRIPTION:Finals Week Begins
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c453
+UID:00000000-0000-0000-0000-036dc582c451
 DTSTAMP:20211218T000000Z
 DTSTART;VALUE=DATE:20211218
 SUMMARY:Finals Week Ends
