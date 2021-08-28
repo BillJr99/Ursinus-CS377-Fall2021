@@ -447,7 +447,11 @@ schedule:
   - dtitle: "Assignment: Normalization Due"
     dlink: "Assignments/Normalization"
     points: 100    
-    submission_types: "written"        
+    submission_types: "written"
+  - dtitle: "Assignment: Join Programming Handed Out"
+    dlink: "Assignments/JoinProgramming"
+    points: 100
+    rubricpath: "_pages/Assignments/asmt-joinprogramming.md"     
 - week: "11"
   date: "1"
   title: "RESTful Web Services with Databases"      
@@ -485,6 +489,10 @@ schedule:
   - rtitle: "M Ch. 7 (4)"
     rlink: false  
   deliverables:
+  - dtitle: "Assignment: Join Programming Due"
+    dlink: "Assignments/JoinProgramming"
+    points: 100
+    rubricpath: "_pages/Assignments/asmt-joinprogramming.md"       
   - dtitle: "Assignment: RESTful Web Services Handed Out"
     dlink: "Assignments/RESTful"
     points: 100    
