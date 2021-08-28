@@ -260,6 +260,7 @@ mynetid: wmongan
                 for(var j = 0; j < lines.length; j++) {
                     if(!(lines[i].trim().startsWith("--")) && lines[i].trim().length >= 1) { // ignore comments and blank lines
                         stmt += lines[i] + ' '; // replace newlines with a space
+                    }
                 }
                 
                 // replace the semicolon at the end
