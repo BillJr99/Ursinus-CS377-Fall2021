@@ -49,10 +49,10 @@ files:
       );
      
       INSERT INTO INVENTORY VALUES (1, "Produce", "Banana", 0.30, 5);             
-      INSERT INTO INVENTORY VALUES (1, "Household", "Bleach", 2.50, 10);
-      INSERT INTO INVENTORY VALUES (1, "Grocery", "Milk", 2.50, 3);
-      INSERT INTO INVENTORY VALUES (1, "Grocery", "Orange Juice", 4, 4);
-      INSERT INTO INVENTORY VALUES (1, "Produce", "Apple", 0.5, 10);
-      INSERT INTO INVENTORY VALUES (1, "Household", "Legal Pad", 1.00, 10);
+      INSERT INTO INVENTORY VALUES (2, "Household", "Bleach", 2.50, 10);
+      INSERT INTO INVENTORY VALUES (3, "Grocery", "Milk", 2.50, 3);
+      INSERT INTO INVENTORY VALUES (4, "Grocery", "Orange Juice", 4, 4);
+      INSERT INTO INVENTORY VALUES (5, "Produce", "Apple", 0.5, 10);
+      INSERT INTO INVENTORY VALUES (6, "Household", "Legal Pad", 1.00, 10);
       
 ---
