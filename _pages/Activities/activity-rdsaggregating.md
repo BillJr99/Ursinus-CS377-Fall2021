@@ -12,6 +12,8 @@ info:
   additional_reading:
     - link: https://comptoolsres.github.io/Database_Introduction.html
       title: Database Introduction
+    - link: https://www.sqlite.org/lang_aggfunc.html
+      title: Sqlite Aggregating Functions
       
   models:
     - model: |
@@ -103,16 +105,69 @@ info:
           INNER JOIN COURSES
             ON COURSES.ID = ENROLLMENTS.CourseID
         WHERE COURSES.CourseNum = "CS377";
+        
+        -- Group and Sort
+        SELECT 
+          COUNT(ENROLLMENTS.ID) AS NumStudents, 
+          AVG(STUDENTS.Age) AS AvgAge,
+          CourseNum
+        FROM ENROLLMENTS
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID
+        GROUP BY CourseNum
+        ORDER BY NumStudents DESC;        
         ]]></script>
       title: The Structured Query Language (SQL)
       questions:
         - "Which statements create tables, and which statements insert records into tables?"
         - "What is unique about the ID columns?  What does <code>AUTOINCREMENT</code> mean?"
         - "What are the values of the <code>STUDENTS</code> and <code>COURSES</code> tables?"
+    - model: |
+        <script type="syntaxhighlighter" class="brush: sql"><![CDATA[        
+        -- These use the table created by the statements above...
+        -- You can paste that code together to run everything at once
+        -- Join
+        SELECT * FROM ENROLLMENTS 
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID;
+
+        -- Aggregation
+        SELECT 
+          COUNT(ENROLLMENTS.ID) AS NumStudents, 
+          AVG(STUDENTS.Age) AS AvgAge 
+        FROM ENROLLMENTS
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID
+        WHERE COURSES.CourseNum = "CS377";
+        
+        -- Group and Sort
+        SELECT 
+          COUNT(ENROLLMENTS.ID) AS NumStudents, 
+          AVG(STUDENTS.Age) AS AvgAge,
+          CourseNum
+        FROM ENROLLMENTS
+          INNER JOIN STUDENTS
+            ON STUDENTS.ID = ENROLLMENTS.StudentID
+          INNER JOIN COURSES
+            ON COURSES.ID = ENROLLMENTS.CourseID
+        GROUP BY CourseNum
+        ORDER BY NumStudents DESC;        
+        ]]></script>
+      title: "Aggregating, Joining, Grouping, and Sorting with SQL"
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>       
+      questions:
+        - "What is being used to create <strong>aggregated</strong> calculated columns, like the average of a column?"
+        - "What clause is used to give a column a custom name?"
+        - "How do you think you sort by the average age of the students in each class in ascending order?"
         - "What do you think the <code>INNER JOIN</code> keyword does, and what do you think the resulting table looks like?"
         - "Modify the SQL code example below to incorporate the revisions that the class has recommended."
-      embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
         
 tags:
   - tables

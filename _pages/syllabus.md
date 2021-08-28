@@ -237,6 +237,8 @@ schedule:
     rlink: false 
   - rtitle: "Database Introduction"
     rlink: "https://comptoolsres.github.io/Database_Introduction.html"
+  - rlink: https://www.sqlite.org/lang_aggfunc.html
+    rtitle: Sqlite Aggregating Functions    
 - week: "2"
   date: "2"
   title: "Processing and Aggregating Data Records"
