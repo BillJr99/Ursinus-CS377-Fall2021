@@ -348,8 +348,8 @@ def getDayNum(dayidx, M, T, W, R, F, S, U):
 def getTimeString(t):   
     return t.strftime('%H%M%S')    
     
-def parseDate(dt):
-    return datetime.strptime(dt, '%Y/%m/%d')
+def parseDate(dt, fmt='%Y/%m/%d'):
+    return datetime.strptime(dt, fmt)
     
 def parseTime(t):
     return datetime.strptime(t, '%I:%M %p')
@@ -383,10 +383,10 @@ def getCourseDate(startdate, weeknum, dayidx, M, T, W, R, F, S, U, tostring=True
 # Assumes the quiz has already been added to the shell with a name that matches the parameter
 def find_quiz_by_title(course, quiz_name):
     quizzes = course.get_quizzes()
-    
+        
     for quiz in quizzes:
-        if quiz['title'] == quiz_name:
-            print("Found quiz: " + quiz['title'] + " while searching for: " + quiz_name)
+        if quiz.title == quiz_name:
+            print("Found quiz: " + quiz.title + " while searching for: " + quiz_name)
         
             return quiz
             
@@ -819,10 +819,12 @@ def process_markdown(fname, canvas, course, courseid, homepage):
                     quiz = find_quiz_by_title(course, quiz_name)
                     if not (quiz is None):
                         duedate = getCourseDate(startdate, weekidx, dayidx, isM, isT, isW, isR, isF, isS, isU, tostring=False)
-                        duedate = getDateString(adddays(duedate, DUE_DATE_OFFSET)) # offset the due date as needed for the due time which is in UTC
+                        duedate = adddays(duedate, DUE_DATE_OFFSET) # offset the due date as needed for the due time which is in UTC
+                        opendate = adddays(duedate, -2) # unlock the quiz 2 days before
+                        duedate = getDateString(duedate)
+                        opendate = getDateString(opendate)
                         
                         inputdict = {}
-                        opendate = adddays(duedate, -2) # unlock the quiz 2 days before
                         inputdict['unlock_at'] = parseDateTimeCanvas(datetime.strptime(opendate + DUE_TIME, DUE_DATE_FORMAT))
                         inputdict['due_at'] = parseDateTimeCanvas(datetime.strptime(duedate + DUE_TIME, DUE_DATE_FORMAT)) 
                         inputdict['lock_at'] = parseDateTimeCanvas(datetime.strptime(enddate.replace('/', '') + DUE_TIME, DUE_DATE_FORMAT)) # lock out assignments on the last day of the class

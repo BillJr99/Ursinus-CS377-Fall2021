@@ -301,7 +301,7 @@ schedule:
   date: "0"
   title: "The Relational Database Model and Database Programming Primer"
   deliverables:
-  - dtitle: "Assignment: Database Programming Handed Out"
+  - dtitle: "Programming Assignment: Database Programming Handed Out"
     dlink: "Assignments/DatabaseProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-dbprogramming.md"  
@@ -321,7 +321,7 @@ schedule:
     dlink: "Labs/Schemas"
     points: 100    
     rubricpath: "_pages/Labs/lab-schemas.md"  
-  - dtitle: "Assignment: ER Modeling Handed Out"
+  - dtitle: "Programming Assignment: ER Modeling Handed Out"
     dlink: "Assignments/ERModeling"
     points: 100    
     submission_types: "written"  
@@ -356,7 +356,7 @@ schedule:
   title: "Data Integrity"
   link: "Activities/DataIntegrity"
   deliverables:
-  - dtitle: "Assignment: Database Programming Due"
+  - dtitle: "Programming Assignment: Database Programming Due"
     dlink: "Assignments/DatabaseProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-dbprogramming.md"    
@@ -368,7 +368,7 @@ schedule:
   title: "Facilitating Integrity with Modeling and the SQL Join"
   link: "Activities/Modeling/Join"
   deliverables:
-  - dtitle: "Assignment: ER Modeling Due"
+  - dtitle: "Programming Assignment: ER Modeling Due"
     dlink: "Assignments/ERModeling"
     points: 100    
     submission_types: "written"    
@@ -378,7 +378,7 @@ schedule:
   - rtitle: "SQL Joins"
     rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"
   deliverables:
-  - dtitle: "Assignment: SQL Programming Handed Out"
+  - dtitle: "Programming Assignment: SQL Programming Handed Out"
     dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"     
@@ -414,11 +414,11 @@ schedule:
   - rtitle: "DD Ch. 11-12"
     rlink: false 
   deliverables:
-  - dtitle: "Assignment: SQL Programming Due"
+  - dtitle: "Programming Assignment: SQL Programming Due"
     dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"  
-  - dtitle: "Assignment: SQL Joins Handed Out"
+  - dtitle: "Programming Assignment: SQL Joins Handed Out"
     dlink: "Assignments/Join"
     points: 100    
     submission_types: "written"     
@@ -439,11 +439,11 @@ schedule:
   date: "0"
   title: "A Non-Relational Database Model: NoSQL"
   deliverables:
-  - dtitle: "Assignment: SQL Joins Due"
+  - dtitle: "Programming Assignment: SQL Joins Due"
     dlink: "Assignments/Join"
     points: 100    
     submission_types: "written" 
-  - dtitle: "Assignment: Normalization Handed Out"
+  - dtitle: "Programming Assignment: Normalization Handed Out"
     dlink: "Assignments/Normalization"
     points: 100    
     submission_types: "written"     
@@ -471,11 +471,11 @@ schedule:
   - rtitle: "How to use curl"
     rlink: "https://flaviocopes.com/http-curl/"
   deliverables:
-  - dtitle: "Assignment: Normalization Due"
+  - dtitle: "Programming Assignment: Normalization Due"
     dlink: "Assignments/Normalization"
     points: 100    
     submission_types: "written"
-  - dtitle: "Assignment: Join Programming Handed Out"
+  - dtitle: "Programming Assignment: Join Programming Handed Out"
     dlink: "Assignments/JoinProgramming"
     points: 100
     rubricpath: "_pages/Assignments/asmt-joinprogramming.md"     
@@ -516,11 +516,11 @@ schedule:
   - rtitle: "M Ch. 7 (4)"
     rlink: false  
   deliverables:
-  - dtitle: "Assignment: Join Programming Due"
+  - dtitle: "Programming Assignment: Join Programming Due"
     dlink: "Assignments/JoinProgramming"
     points: 100
     rubricpath: "_pages/Assignments/asmt-joinprogramming.md"       
-  - dtitle: "Assignment: RESTful Web Services Handed Out"
+  - dtitle: "Programming Assignment: RESTful Web Services Handed Out"
     dlink: "Assignments/RESTful"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-restful.md"             
@@ -553,7 +553,7 @@ schedule:
   date: "2"
   title: "Review"
   deliverables:   
-  - dtitle: "Assignment: RESTful Web Services Due"
+  - dtitle: "Programming Assignment: RESTful Web Services Due"
     dlink: "Assignments/RESTful"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-restful.md"     
