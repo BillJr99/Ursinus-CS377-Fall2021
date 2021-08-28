@@ -33,9 +33,9 @@ files:
         -- TODO: List the average total household salary of each house, sorted in descending order by salary
         -- TODO: List the average household salary by zip code, in descending order by salary
 
-  - filename: "Setup.sql"
-    ismain: false
-    name: setup
+  - filename: "Main.sql"
+    ismain: true
+    name: main
     isreadonly: false
     isvisible: true
     code: |
@@ -82,12 +82,5 @@ files:
       INSERT INTO HOUSEHOLDMEMBER VALUES (5, 2, 5);
 
       INSERT INTO HOUSEHOLDMEMBER VALUES (6, 3, 6);
-      
-  - filename: "Main.sql"
-    ismain: true
-    name: main
-    isreadonly: true
-    isvisible: false
-    code: "-- setup goes here"
-        
+              
 ---
