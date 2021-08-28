@@ -21,7 +21,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString;
   correctcheck: |
-    pos === "5-111-12"
+    pos.trim() === "5-111-12"
       
 files:
   - filename: "ThreeXPlusOne.py"
