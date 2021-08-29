@@ -123,7 +123,7 @@ digraph mygraph {
 
 This graph generates the following image when compiled using the Graphviz parser:
 
-![Example graph resulting from the sample DOT file, with three nodes A, B, and C, and edges between A and B, and B and C.](../images/asmt-gedcom/example.jpg)
+![Example graph resulting from the sample DOT file, with three nodes A, B, and C, and edges between A and B, and B and C.](../../images/asmt-gedcom/example.jpg)
 
 Iterate over your internal representation and output a node for each individual, and create an edge between nodes that are related (spouse, child, *etc*).  Label each node with the name of the person, and label each edge with the type of relationship.  You can label nodes and edges with additional information about the person if you'd like; feel free to get creative!
 
