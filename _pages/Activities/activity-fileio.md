@@ -11,7 +11,7 @@ info:
   models:
     - model: |
         <script type="syntaxhighlighter" class="brush: python"><![CDATA[        
-        f = file("somepath.txt", "a+") # a+ for append to the end, w for overwrite
+        f = open("somepath.txt", "a+") # a+ for append to the end, w for overwrite
         
         f.write("This is a test")
         
