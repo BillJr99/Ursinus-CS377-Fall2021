@@ -241,12 +241,7 @@ schedule:
     rtitle: Sqlite Aggregating Functions    
 - week: "2"
   date: "2"
-  title: "Processing and Aggregating Data Records"
-  deliverables:
-  - dtitle: "Lab: Database Tables Lab Handed Out"
-    dlink: "Labs/DatabaseTables"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-dbtables.md"    
+  title: "Processing and Aggregating Data Records"    
 - week: "3"
   date: "0"
   title: "Processing and Aggregating Data Records"
@@ -259,6 +254,10 @@ schedule:
     dlink: "Assignments/GEDCOM/FileIO"
     points: 100  
     rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
+  - dtitle: "Lab: Database Tables Lab Handed Out"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"    
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 
@@ -267,22 +266,12 @@ schedule:
   title: "Data Modeling and Schemas"
 - week: "4"
   date: "0"
-  title: "Data Modeling and Schemas"
-  deliverables:
-  - dtitle: "Lab: Database Tables Lab Due"
-    dlink: "Labs/DatabaseTables"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-dbtables.md"   
+  title: "Data Modeling and Schemas" 
 - week: "4"
   date: "1"
   title: "" 
   title: "The Relational Database Model and Database Programming Primer"
   link: "Activities/RelationalModel"
-  deliverables:
-  - dtitle: "Lab: Schemas Handed Out"
-    dlink: "Labs/Schemas"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-schemas.md"      
   readings:
   - rtitle: "DD Ch. 6-7"
     rlink: false
@@ -296,7 +285,16 @@ schedule:
     rtitle: Databases and SQL    
 - week: "4"
   date: "2"
-  title: "The Relational Database Model and Database Programming Primer"   
+  title: "The Relational Database Model and Database Programming Primer"
+  deliverables:
+  - dtitle: "Lab: Database Tables Lab Due"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"    
+  - dtitle: "Lab: Schemas Handed Out"
+    dlink: "Labs/Schemas"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-schemas.md"        
 - week: "5"
   date: "0"
   title: "The Relational Database Model and Database Programming Primer"
@@ -316,11 +314,7 @@ schedule:
   date: "2"
   title: "The Structured Query Language (SQL)" 
   link: "Activities/SQL"
-  deliverables:
-  - dtitle: "Lab: Schemas Due"
-    dlink: "Labs/Schemas"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-schemas.md"  
+  deliverables: 
   - dtitle: "Programming Assignment: ER Modeling Handed Out"
     dlink: "Assignments/ERModeling"
     points: 100    
@@ -334,6 +328,10 @@ schedule:
   date: "0"
   title: "The Structured Query Language (SQL)"
   deliverables:
+  - dtitle: "Lab: Schemas Due"
+    dlink: "Labs/Schemas"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-schemas.md"   
   - dtitle: "Lab: Database Design Lab Handed Out"
     dlink: "Labs/DatabaseDesign"
     points: 100    
