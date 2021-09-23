@@ -167,7 +167,7 @@ schedule:
   - dtitle: "Programming Assignment: Warmup Handed Out"    
     dlink: "Assignments/Warmup"
     points: 15
-    submission_types: "noupload"
+    submission_types: "onpaper"
 - week: "0"
   date: "1"
   title: "Course Overview: What is a Database, and Why Use Them?"
@@ -189,7 +189,7 @@ schedule:
   - dtitle: "Programming Assignment: Warmup Due"    
     dlink: "Assignments/Warmup"
     points: 15
-    submission_types: "noupload"
+    submission_types: "onpaper"
   - dtitle: "Lab: File I/O Handed Out"
     dlink: "Labs/FileIO"
     points: 100    
