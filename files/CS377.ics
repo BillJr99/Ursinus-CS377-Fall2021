@@ -228,8 +228,6 @@ UID:00000000-0000-0000-0000-036dc582c413
 DTSTAMP:20210920T000000Z
 DTSTART;VALUE=DATE:20210920
 SUMMARY:CS377 Database Design: Class Meeting
-<<<<<<< HEAD
-=======
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -239,16 +237,6 @@ UID:00000000-0000-0000-0000-036dc582c414
 DTSTAMP:20210922T000000Z
 DTSTART;VALUE=DATE:20210922
 SUMMARY:CS377 Database Design: Programming Assignment: GEDCOM File Format Due
->>>>>>> 0033e6ab276b49a6902f7ca4824bacf8f00b8d37
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c414
-DTSTAMP:20210922T000000Z
-DTSTART;VALUE=DATE:20210922
-SUMMARY:CS377 Database Design: Lab: Database Tables Lab Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -259,7 +247,7 @@ DTSTAMP:20210922T000000Z
 DTSTART;VALUE=DATE:20210922
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Schemas\nReading: DD Ch. 4-5\nDeliverable: Programming Assignment: GEDCOM File Format Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM/FileIO\nDeliverable: Lab: Database Tables Lab Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modeling/Schemas\nReading: DD Ch. 4-5\nDeliverable: Programming Assignment: GEDCOM File Format Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/GEDCOM/FileIO
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -302,11 +290,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c41a
 DTSTAMP:20211001T000000Z
 DTSTART;VALUE=DATE:20211001
-<<<<<<< HEAD
 SUMMARY:CS377 Database Design: Lab: Schemas Handed Out
-=======
-SUMMARY:CS377 Database Design: Lab: Database Tables Lab Due
->>>>>>> 0033e6ab276b49a6902f7ca4824bacf8f00b8d37
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -315,15 +299,9 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c41b
 DTSTAMP:20211001T000000Z
 DTSTART;VALUE=DATE:20211001
-<<<<<<< HEAD
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
 DESCRIPTION:\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
-=======
-SUMMARY:CS377 Database Design: Lab: Schemas Handed Out
-LOCATION:
-DESCRIPTION:
->>>>>>> 0033e6ab276b49a6902f7ca4824bacf8f00b8d37
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -332,7 +310,7 @@ DTSTAMP:20211004T000000Z
 DTSTART;VALUE=DATE:20211004
 SUMMARY:CS377 Database Design: Lab: Database Tables Lab Due
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Database Tables Lab Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
