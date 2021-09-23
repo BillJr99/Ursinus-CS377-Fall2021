@@ -218,22 +218,13 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c412
 DTSTAMP:20210917T000000Z
 DTSTART;VALUE=DATE:20210917
-SUMMARY:CS377 Database Design: Lab: Database Tables Lab Handed Out
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c413
-DTSTAMP:20210917T000000Z
-DTSTART;VALUE=DATE:20210917
-SUMMARY:CS377 Database Design: Class Meeting
-LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Database Tables Lab Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c414
 DTSTAMP:20210920T000000Z
 DTSTART;VALUE=DATE:20210920
 SUMMARY:CS377 Database Design: Class Meeting
@@ -242,7 +233,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c415
+UID:00000000-0000-0000-0000-036dc582c414
 DTSTAMP:20210922T000000Z
 DTSTART;VALUE=DATE:20210922
 SUMMARY:CS377 Database Design: Programming Assignment: GEDCOM File Format Due
@@ -251,7 +242,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:00000000-0000-0000-0000-036dc582c416
+UID:00000000-0000-0000-0000-036dc582c415
 DTSTAMP:20210922T000000Z
 DTSTART;VALUE=DATE:20210922
 SUMMARY:CS377 Database Design: Class Meeting
@@ -260,36 +251,45 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/Modelin
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
+UID:00000000-0000-0000-0000-036dc582c416
+DTSTAMP:20210924T000000Z
+DTSTART;VALUE=DATE:20210924
+SUMMARY:CS377 Database Design: Lab: Database Tables Lab Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c417
 DTSTAMP:20210924T000000Z
 DTSTART;VALUE=DATE:20210924
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Lab: Database Tables Lab Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c418
 DTSTAMP:20210927T000000Z
 DTSTART;VALUE=DATE:20210927
-SUMMARY:CS377 Database Design: Lab: Database Tables Lab Due
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c419
-DTSTAMP:20210927T000000Z
-DTSTART;VALUE=DATE:20210927
+DTSTAMP:20210929T000000Z
+DTSTART;VALUE=DATE:20210929
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Database Tables Lab Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nReading: PyMySQL Python Library https://pypi.org/project/PyMySQL/\nReading: Sqlite3 Python Library https://docs.python.org/3/library/sqlite3.html\nReading: PostgreSQL Python Library https://www.tutorialspoint.com/postgresql/postgresql_python.htm\nReading: Databases and SQL https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c41a
-DTSTAMP:20210929T000000Z
-DTSTART;VALUE=DATE:20210929
+DTSTAMP:20211001T000000Z
+DTSTART;VALUE=DATE:20211001
 SUMMARY:CS377 Database Design: Lab: Schemas Handed Out
 LOCATION:
 DESCRIPTION:
@@ -297,18 +297,18 @@ PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c41b
-DTSTAMP:20210929T000000Z
-DTSTART;VALUE=DATE:20210929
+DTSTAMP:20211001T000000Z
+DTSTART;VALUE=DATE:20211001
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/RelationalModel\nReading: DD Ch. 6-7\nReading: PyMySQL Python Library https://pypi.org/project/PyMySQL/\nReading: Sqlite3 Python Library https://docs.python.org/3/library/sqlite3.html\nReading: PostgreSQL Python Library https://www.tutorialspoint.com/postgresql/postgresql_python.htm\nReading: Databases and SQL https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
+DESCRIPTION:\nDeliverable: Lab: Schemas Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c41c
-DTSTAMP:20211001T000000Z
-DTSTART;VALUE=DATE:20211001
-SUMMARY:CS377 Database Design: Class Meeting
+DTSTAMP:20211004T000000Z
+DTSTART;VALUE=DATE:20211004
+SUMMARY:CS377 Database Design: Lab: Database Tables Lab Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -328,7 +328,7 @@ DTSTAMP:20211004T000000Z
 DTSTART;VALUE=DATE:20211004
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Database Programming Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/DatabaseProgramming
+DESCRIPTION:\nDeliverable: Lab: Database Tables Lab Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseTables\nDeliverable: Programming Assignment: Database Programming Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/DatabaseProgramming
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -344,7 +344,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c420
 DTSTAMP:20211008T000000Z
 DTSTART;VALUE=DATE:20211008
-SUMMARY:CS377 Database Design: Lab: Schemas Due
+SUMMARY:CS377 Database Design: Programming Assignment: ER Modeling Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -353,18 +353,18 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c421
 DTSTAMP:20211008T000000Z
 DTSTART;VALUE=DATE:20211008
-SUMMARY:CS377 Database Design: Programming Assignment: ER Modeling Handed Out
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nReading: A Gentle Introduction to SQL https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/\nDeliverable: Programming Assignment: ER Modeling Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/ERModeling
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c422
-DTSTAMP:20211008T000000Z
-DTSTART;VALUE=DATE:20211008
-SUMMARY:CS377 Database Design: Class Meeting
+DTSTAMP:20211011T000000Z
+DTSTART;VALUE=DATE:20211011
+SUMMARY:CS377 Database Design: Lab: Schemas Due
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/SQL\nReading: DD Ch. 15-16\nReading: A Gentle Introduction to SQL https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas\nDeliverable: Programming Assignment: ER Modeling Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/ERModeling
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -382,7 +382,7 @@ DTSTAMP:20211011T000000Z
 DTSTART;VALUE=DATE:20211011
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Lab: Database Design Lab Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseDesign
+DESCRIPTION:\nDeliverable: Lab: Schemas Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/Schemas\nDeliverable: Lab: Database Design Lab Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Labs/DatabaseDesign
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT

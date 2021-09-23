@@ -253,17 +253,18 @@ schedule:
   - dtitle: "Programming Assignment: GEDCOM File Format Due"
     dlink: "Assignments/GEDCOM/FileIO"
     points: 100  
-    rubricpath: "_pages/Assignments/asmt-gedcomfile.md"  
-  - dtitle: "Lab: Database Tables Lab Handed Out"
-    dlink: "Labs/DatabaseTables"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-dbtables.md"    
+    rubricpath: "_pages/Assignments/asmt-gedcomfile.md"   
   readings:
   - rtitle: "DD Ch. 4-5"
     rlink: false 
 - week: "3"
   date: "2"
   title: "Data Modeling and Schemas"
+  deliverables:
+  - dtitle: "Lab: Database Tables Lab Handed Out"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"   
 - week: "4"
   date: "0"
   title: "Data Modeling and Schemas" 
@@ -286,11 +287,7 @@ schedule:
 - week: "4"
   date: "2"
   title: "The Relational Database Model and Database Programming Primer"
-  deliverables:
-  - dtitle: "Lab: Database Tables Lab Due"
-    dlink: "Labs/DatabaseTables"
-    points: 100    
-    rubricpath: "_pages/Labs/lab-dbtables.md"    
+  deliverables: 
   - dtitle: "Lab: Schemas Handed Out"
     dlink: "Labs/Schemas"
     points: 100    
@@ -299,6 +296,10 @@ schedule:
   date: "0"
   title: "The Relational Database Model and Database Programming Primer"
   deliverables:
+  - dtitle: "Lab: Database Tables Lab Due"
+    dlink: "Labs/DatabaseTables"
+    points: 100    
+    rubricpath: "_pages/Labs/lab-dbtables.md"   
   - dtitle: "Programming Assignment: Database Programming Handed Out"
     dlink: "Assignments/DatabaseProgramming"
     points: 100    
