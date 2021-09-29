@@ -30,7 +30,7 @@ info:
       questions:
         - "What are the kernels in this schema?"
         - "What is the purpose of the <code>ENROLLMENTS</code> table?  What does it connect?"
-        - "<code>ENROLLMENTS</code> is an example of a <strong>derived entity</code>; describe what you think this means in your own words."
+        - "<code>ENROLLMENTS</code> is an example of a <strong>derived entity</strong>; describe what you think this means in your own words."
         - "Using <a href=\"https://pypi.org/project/ERAlchemy/\">ERAlchemy</a>, generate a schema diagram from the example below."
       embed: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe> 
