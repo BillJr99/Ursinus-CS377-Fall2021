@@ -114,7 +114,8 @@ info:
         - "What do you think the <code>INNER JOIN</code> keyword does, and what do you think the resulting table looks like?"
         - "Modify the SQL code example below to incorporate the revisions that the class has recommended."
         - "Try selecting all data from the <code>sqlite_master</code> table, and the <code>sqlite_sequence</code> table.  What do you think these contain?"
-        
+        - "How might you update or delete records in these tables?"
+        - "What should you be careful of when deleting records?"
 tags:
   - tables
   - aggregation
