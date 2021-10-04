@@ -299,32 +299,28 @@ schedule:
   - dtitle: "Lab: Database Tables Lab Due"
     dlink: "Labs/DatabaseTables"
     points: 100    
-    rubricpath: "_pages/Labs/lab-dbtables.md"   
-  - dtitle: "Programming Assignment: Database Programming Handed Out"
-    dlink: "Assignments/DatabaseProgramming"
-    points: 100    
-    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"  
+    rubricpath: "_pages/Labs/lab-dbtables.md"    
 - week: "5"
   date: "1"
   title: "The Entity-Relational (ER) Model" 
   link: "Activities/ERModel"
   readings:
   - rtitle: "DD Ch. 8"
-    rlink: false   
-- week: "5"
-  date: "2"
-  title: "The Structured Query Language (SQL)" 
-  link: "Activities/SQL"
+    rlink: false     
   deliverables: 
   - dtitle: "Programming Assignment: ER Modeling Handed Out"
     dlink: "Assignments/ERModeling"
     points: 100    
-    submission_types: "written"  
+    submission_types: "written"      
+- week: "5"
+  date: "2"
+  title: "The Structured Query Language (SQL)" 
+  link: "Activities/SQL"
   readings:
   - rtitle: "DD Ch. 15-16"
     rlink: false
   - rtitle: "A Gentle Introduction to SQL"
-    rlink: "https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/"
+    rlink: "https://a-gentle-introduction-to-sql.readthedocs.io/en/latest/"    
 - week: "6"
   date: "0"
   title: "The Structured Query Language (SQL)"
@@ -354,11 +350,11 @@ schedule:
   date: "2"
   title: "Data Integrity"
   link: "Activities/DataIntegrity"
-  deliverables:
-  - dtitle: "Programming Assignment: Database Programming Due"
-    dlink: "Assignments/DatabaseProgramming"
+  deliverables: 
+  - dtitle: "Programming Assignment: ER Modeling Due"
+    dlink: "Assignments/ERModeling"
     points: 100    
-    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"    
+    submission_types: "written"     
   readings:
   - rtitle: "DD Ch. 9"
     rlink: false 
@@ -371,16 +367,15 @@ schedule:
     dlink: "Assignments/ERModeling"
     points: 100    
     submission_types: "written"    
+  - dtitle: "Programming Assignment: Database Programming Handed Out"
+    dlink: "Assignments/DatabaseProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"      
   readings:
   - rtitle: "DD Ch. 10"
     rlink: false    
   - rtitle: "SQL Joins"
-    rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"
-  deliverables:
-  - dtitle: "Programming Assignment: SQL Programming Handed Out"
-    dlink: "Assignments/SQLProgramming"
-    points: 100    
-    rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"     
+    rlink: "https://en.wikipedia.org/wiki/Join_(SQL)"    
 - week: "7"
   date: "2"
   title: "Facilitating Integrity with Modeling and the SQL Join"
@@ -388,7 +383,7 @@ schedule:
   - dtitle: "Exercise: SQL Aggregation"
     dlink: "Modules/SQL/Aggregation/Exercise"
     points: 3
-    submission_types: "written"   
+    submission_types: "written"    
 - week: "8"
   date: "0"
   title: "Facilitating Integrity with Modeling and the SQL Join"
@@ -413,14 +408,14 @@ schedule:
   - rtitle: "DD Ch. 11-12"
     rlink: false 
   deliverables:
-  - dtitle: "Programming Assignment: SQL Programming Due"
+  - dtitle: "Programming Assignment: Database Programming Due"
+    dlink: "Assignments/DatabaseProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-dbprogramming.md"   
+  - dtitle: "Programming Assignment: SQL Programming Handed Out"
     dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"  
-  - dtitle: "Programming Assignment: SQL Joins Handed Out"
-    dlink: "Assignments/Join"
-    points: 100    
-    submission_types: "written"     
 - week: "9"
   date: "0"
   title: "ER Modeling and Normalization"
@@ -438,14 +433,14 @@ schedule:
   date: "0"
   title: "A Non-Relational Database Model: NoSQL"
   deliverables:
-  - dtitle: "Programming Assignment: SQL Joins Due"
+  - dtitle: "Programming Assignment: SQL Programming Handed Out"
+    dlink: "Assignments/SQLProgramming"
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"   
+  - dtitle: "Programming Assignment: SQL Joins Handed Out"
     dlink: "Assignments/Join"
     points: 100    
     submission_types: "written" 
-  - dtitle: "Programming Assignment: Normalization Handed Out"
-    dlink: "Assignments/Normalization"
-    points: 100    
-    submission_types: "written"     
 - week: "10"
   date: "1"
   title: "CRUD with NoSQL" 
@@ -470,10 +465,10 @@ schedule:
   - rtitle: "How to use curl"
     rlink: "https://flaviocopes.com/http-curl/"
   deliverables:
-  - dtitle: "Programming Assignment: Normalization Due"
-    dlink: "Assignments/Normalization"
+  - dtitle: "Programming Assignment: SQL Joins Due"
+    dlink: "Assignments/Join"
     points: 100    
-    submission_types: "written"
+    submission_types: "written"   
   - dtitle: "Programming Assignment: Join Programming Handed Out"
     dlink: "Assignments/JoinProgramming"
     points: 100
@@ -498,6 +493,10 @@ schedule:
   title: "NoSQL Data Models: Key-Value, Document, Columnar, and Graph"
   link: "Activities/NoSQL/DataModels"
   deliverables:
+  - dtitle: "Programming Assignment: Join Programming Due"
+    dlink: "Assignments/JoinProgramming"
+    points: 100
+    rubricpath: "_pages/Assignments/asmt-joinprogramming.md"    
   - dtitle: "Lab: Graph Databases with Redis Handed Out"
     dlink: "Labs/Redis"
     points: 100    
@@ -506,29 +505,25 @@ schedule:
   - rtitle: "Types of NoSQL Databases"
     rlink: "https://www.mongodb.com/scale/types-of-nosql-databases"  
   - rtitle: "Setting up Redis"
-    rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"
+    rlink: "https://dev.to/ramko9999/host-and-use-redis-for-free-51if"    
 - week: "13"
   date: "0"
   title: "Indexing a Denormalized NoSQL Datastore"
   link: "Activities/NoSQL/Indexing"
   readings:
   - rtitle: "M Ch. 7 (4)"
-    rlink: false  
-  deliverables:
-  - dtitle: "Programming Assignment: Join Programming Due"
-    dlink: "Assignments/JoinProgramming"
-    points: 100
-    rubricpath: "_pages/Assignments/asmt-joinprogramming.md"       
-  - dtitle: "Programming Assignment: RESTful Web Services Handed Out"
-    dlink: "Assignments/RESTful"
-    points: 100    
-    rubricpath: "_pages/Assignments/asmt-restful.md"             
+    rlink: false              
 - week: "13"
   date: "1"
   title: "Workshop: Toward Scaled Managed Cloud Databases"
   readings:
   - rtitle: "M Ch. 10 (7)"
     rlink: false   
+  deliverables:
+  - dtitle: "Programming Assignment: Normalization Handed Out"
+    dlink: "Assignments/Normalization"
+    points: 100    
+    submission_types: "written"   
 - week: "13"
   date: "2"
   title: "Workshop: Toward Scaled Managed Cloud Databases"    
@@ -552,10 +547,10 @@ schedule:
   date: "2"
   title: "Review"
   deliverables:   
-  - dtitle: "Programming Assignment: RESTful Web Services Due"
-    dlink: "Assignments/RESTful"
+  - dtitle: "Programming Assignment: Normalization Due"
+    dlink: "Assignments/Normalization"
     points: 100    
-    rubricpath: "_pages/Assignments/asmt-restful.md"     
+    submission_types: "written"    
   
 university:
   semester: "Fall"
