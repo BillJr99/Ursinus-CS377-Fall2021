@@ -551,7 +551,7 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c437
 DTSTAMP:20211108T000000Z
 DTSTART;VALUE=DATE:20211108
-SUMMARY:CS377 Database Design: Programming Assignment: SQL Programming Handed Out
+SUMMARY:CS377 Database Design: Programming Assignment: SQL Programming Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
@@ -571,7 +571,7 @@ DTSTAMP:20211108T000000Z
 DTSTART;VALUE=DATE:20211108
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: SQL Programming Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/SQLProgramming\nDeliverable: Programming Assignment: SQL Joins Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Join
+DESCRIPTION:\nDeliverable: Programming Assignment: SQL Programming Due https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/SQLProgramming\nDeliverable: Programming Assignment: SQL Joins Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Join
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -677,18 +677,18 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c445
 DTSTAMP:20211129T000000Z
 DTSTART;VALUE=DATE:20211129
-SUMMARY:CS377 Database Design: Class Meeting
+SUMMARY:CS377 Database Design: Programming Assignment: Normalization Handed Out
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Indexing\nReading: M Ch. 7 (4)
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-036dc582c446
-DTSTAMP:20211201T000000Z
-DTSTART;VALUE=DATE:20211201
-SUMMARY:CS377 Database Design: Programming Assignment: Normalization Handed Out
+DTSTAMP:20211129T000000Z
+DTSTART;VALUE=DATE:20211129
+SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-CS377-Fall2021/Activities/NoSQL/Indexing\nReading: M Ch. 7 (4)\nDeliverable: Programming Assignment: Normalization Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Normalization
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -697,7 +697,7 @@ DTSTAMP:20211201T000000Z
 DTSTART;VALUE=DATE:20211201
 SUMMARY:CS377 Database Design: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: M Ch. 10 (7)\nDeliverable: Programming Assignment: Normalization Handed Out https://www.billmongan.com/Ursinus-CS377-Fall2021/Assignments/Normalization
+DESCRIPTION:\nReading: M Ch. 10 (7)
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
