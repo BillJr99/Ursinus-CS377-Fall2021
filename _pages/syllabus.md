@@ -433,7 +433,7 @@ schedule:
   date: "0"
   title: "A Non-Relational Database Model: NoSQL"
   deliverables:
-  - dtitle: "Programming Assignment: SQL Programming Handed Out"
+  - dtitle: "Programming Assignment: SQL Programming Due"
     dlink: "Assignments/SQLProgramming"
     points: 100    
     rubricpath: "_pages/Assignments/asmt-sqlprogramming.md"   
@@ -512,18 +512,18 @@ schedule:
   link: "Activities/NoSQL/Indexing"
   readings:
   - rtitle: "M Ch. 7 (4)"
-    rlink: false              
+    rlink: false   
+  deliverables:
+  - dtitle: "Programming Assignment: Normalization Handed Out"
+    dlink: "Assignments/Normalization"
+    points: 100    
+    submission_types: "written"       
 - week: "13"
   date: "1"
   title: "Workshop: Toward Scaled Managed Cloud Databases"
   readings:
   - rtitle: "M Ch. 10 (7)"
     rlink: false   
-  deliverables:
-  - dtitle: "Programming Assignment: Normalization Handed Out"
-    dlink: "Assignments/Normalization"
-    points: 100    
-    submission_types: "written"   
 - week: "13"
   date: "2"
   title: "Workshop: Toward Scaled Managed Cloud Databases"    
