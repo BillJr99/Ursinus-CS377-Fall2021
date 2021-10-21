@@ -349,12 +349,7 @@ schedule:
 - week: "6"
   date: "2"
   title: "Data Integrity"
-  link: "Activities/DataIntegrity"
-  deliverables: 
-  - dtitle: "Programming Assignment: ER Modeling Due"
-    dlink: "Assignments/ERModeling"
-    points: 100    
-    submission_types: "written"     
+  link: "Activities/DataIntegrity"  
   readings:
   - rtitle: "DD Ch. 9"
     rlink: false 

@@ -24,7 +24,7 @@ info:
         - "Discuss with your group a potential data model and draw a schema for that model.  As a class, create the database in SQL, and then implement it with your Python program."
         - "What are the primary keys, foreign keys, kernels, and dependencies in your data model?  For each dependency, what kind of dependency is it?"
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonSqlExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonSqlRelationshipInsertExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
     - model: |
         <img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png" alt="XKCD Exploits of a Mom">
       title: "Sanitizing Database Inputs"
