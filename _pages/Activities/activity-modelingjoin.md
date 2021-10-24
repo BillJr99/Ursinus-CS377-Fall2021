@@ -31,7 +31,7 @@ info:
       title: Case Study
       questions:
         - "Induce as many anomalies as you can in the flawed table above!"
-        - "How does the improved (<strong>normalized</strong>) schema help prevent the anomalies you were able to create?"
+        - "How does the improved (<strong>normalized</strong>) schema help prevent the anomalies you were able to identify?"
     - model: |
         <h3>Inner Join</h3>
         <a title="GermanX, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SQL_Join_-_07_A_Inner_Join_B.svg"><img width="128" alt="SQL Join - 07 A Inner Join B" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/128px-SQL_Join_-_07_A_Inner_Join_B.svg.png"></a>
