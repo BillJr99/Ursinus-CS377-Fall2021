@@ -11,7 +11,7 @@ info:
     
   models:
     - model: |
-        <img src="https://docs.mongodb.com/manual/_images/crud-annotated-collection.bakedsvg.svg" alt="MongoDB Collections from mongodb.com" />
+        <img src="https://web.archive.org/web/20210303013947/https://docs.mongodb.com/manual/_images/crud-annotated-collection.bakedsvg.svg" alt="MongoDB Collections from mongodb.com" />
       title: Unstructured Data Stores
       embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonMongoDBExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>        
       questions:
