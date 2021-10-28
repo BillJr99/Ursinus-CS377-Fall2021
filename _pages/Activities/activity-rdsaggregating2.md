@@ -116,6 +116,27 @@ info:
         - "Try selecting all data from the <code>sqlite_master</code> table, and the <code>sqlite_sequence</code> table.  What do you think these contain?"
         - "How might you update or delete records in these tables?"
         - "What should you be careful of when deleting records?"
+    - model: |
+        <script type="syntaxhighlighter" class="brush: sql"><![CDATA[        
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (
+          (SELECT ID FROM STUDENTS WHERE FirstName="Alex" AND LastName="Smith"), 
+          (SELECT ID FROM COURSES WHERE CourseNum="CS377")
+        );
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (
+          (SELECT ID FROM STUDENTS WHERE FirstName="Lee" AND LastName="Jones"), 
+          (SELECT ID FROM COURSES WHERE CourseNum="CS377")
+        );
+        INSERT INTO ENROLLMENTS(StudentID, CourseID) VALUES (
+          (SELECT ID FROM STUDENTS WHERE FirstName="Brian" AND LastName="McMullen"), 
+          (SELECT ID FROM COURSES WHERE CourseNum="CS173")
+        );       
+        ]]></script>
+      title: "Inserting with SQL Subqueries"
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/Sql-AggregationSubqueryExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>       
+      questions:
+        - "What values are being inserted into the <code>ENROLLMENTS</code> table, and how?"        
+        
 tags:
   - tables
   - aggregation
