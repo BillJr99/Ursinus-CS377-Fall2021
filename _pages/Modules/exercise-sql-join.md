@@ -30,7 +30,7 @@ files:
     isvisible: true
     code: | 
         -- TODO: list all people that live in the 19426 zip code
-        -- TODO: List the average total household salary of each house (call this column HouseholdSalary), sorted in descending order by salary
+        -- TODO: List the average household salary of the people living in each house (call this column HouseholdSalary), sorted in descending order by salary
         -- TODO: List the average household salary (call this column HouseholdSalary) by zip code, in descending order by salary
 
   - filename: "Main.sql"
