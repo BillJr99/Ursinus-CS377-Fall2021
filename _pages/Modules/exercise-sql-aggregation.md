@@ -29,10 +29,17 @@ files:
     isreadonly: false
     isvisible: true
     code: | 
-        -- TODO: How many grocery items are there (where type is Grocery)?  Call the column NumGrocery.  Hint - the answer will be 7
-        -- TODO: How many of each item is there (use only one query!)?  Call the column NumItems, and sort in increasing order by the number of items.  Don't forget to include the ProductType column so you know which quantity goes with which type of item!  Hint - there are 7 Grocery, 15 Produce, and 20 Household items
-        -- TODO: What is the average cost of produce items? Call the column AvgCostProduce. Hint - the average cost of Produce is $0.40
-        -- TODO: What is the average cost of each type of item (use only one query!)?  Call the column AvgCost and sort in decreasing order by the average cost.  Don't forget to include the ProductType column so you know which quantity goes with which type of item! Hint - the average cost of Grocery items is $3.25, Household items is $1.75, and Produce is $0.40
+        -- TODO: How many grocery items are there (where type is Grocery)?  Call the column NumGrocery.  
+        -- HINT: The answer is [{"columns":["NumGrocery"],"values":[[7]]}]
+        
+        -- TODO: How many of each item is there (use only one query!)?  Call the column NumItems, and sort in increasing order by the number of items.  Don't forget to include the ProductType column so you know which quantity goes with which type of item!  
+        -- HINT: The answer is [{"columns":["ProductType","NumItems"],"values":[["Grocery",7],["Produce",15],["Household",20]]}]
+        
+        -- TODO: What is the average cost of produce items? Call the column AvgCostProduce. 
+        -- HINT: The answer is [{"columns":["AvgCostProduce"],"values":[[0.4]]}]
+        
+        -- TODO: What is the average cost of each type of item (use only one query!)?  Call the column AvgCost and sort in decreasing order by the average cost.  Don't forget to include the ProductType column so you know which quantity goes with which type of item! 
+        -- HINT: The answer is [{"columns":["ProductType","AvgCost"],"values":[["Grocery",3.25],["Household",1.75],["Produce",0.4]]}]
 
   - filename: "Main.sql"
     ismain: true

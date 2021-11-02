@@ -32,6 +32,7 @@ files:
     code: | 
         -- TODO: insert a value into the mytable database table
         -- TODO: retrive the value from the table
+        -- HINT: The answer is [{"columns":["a"],"values":[[42]]}]
 
   - filename: "Setup.sql"
     ismain: true

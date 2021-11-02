@@ -30,8 +30,13 @@ files:
     isvisible: true
     code: | 
         -- TODO: list all people that live in the 19426 zip code
+        -- HINT: The answer is [{"columns":["FirstName","LastName","Address"],"values":[["Alex","Smith","123 Main Street"],["Susan","Smith","123 Main Street"],["Samantha","Lee","234 Main Street"],["Alex","Lee","234 Main Street"],["Steph","Lee","234 Main Street"]]}]
+        
         -- TODO: List the average household salary of the people living in each house (call this column HouseholdSalary), sorted in descending order by salary
+        -- HINT: The answer is [{"columns":["Address","HouseholdSalary"],"values":[["234 Main Street",70000],["12 Third Street",40000],["123 Main Street",25000]]}]
+        
         -- TODO: List the average household salary (call this column HouseholdSalary) by zip code, in descending order by salary
+        -- HINT: The answer is [{"columns":["Zip","HouseholdSalary"],"values":[["19426",130000],["19406",40000]]}]
 
   - filename: "Main.sql"
     ismain: true
