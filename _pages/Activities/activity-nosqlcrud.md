@@ -45,7 +45,7 @@ info:
         doc = collection.find_one({"_id": id})
         
         # for multiple results
-        cursor = collection.find({"key1": "val1"}).sort("key2": -1)
+        cursor = collection.find({"key1": "val1"}).sort({"key2": -1})
         for doc in cursor:
             print(doc['key2'])
                 
