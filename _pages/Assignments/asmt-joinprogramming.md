@@ -51,11 +51,11 @@ The [Baseball Archive](http://www.seanlahman.com/baseball-archive/statistics/) d
 ![Lahman Baseball Database Schema](../images/asmt-joinprogramming/lahmansbaseballdb.sqlite.png)
 
 ### What to Do
-Answer the following questions using the dataset:
+Answer the following questions using the dataset (feel free to write these queries for any year if you'd like to explore!):
 
 1. How many wins did the Philadelphia Phillies have in 2019?  You will use the `teams` table to find this.
 2. Which team had the most hits in 2019?  The `teams` table has this as well.
-3. Who was the highest paid player in 2019?  To find this, you will connect the `salaries` table with the `people` table .  Recall that `MAX` is an aggregating function that can be used in a `SELECT` statement.
+3. Who was the highest paid player in 2016?  To find this, you will connect the `salaries` table with the `people` table .  Recall that `MAX` is an aggregating function that can be used in a `SELECT` statement.
 4. What players played in the all-star game in 2019?  You will connect the `allstarfull` table with the `people` table to find this.
 5. For each player in the major leagues in 2019 that also played in college, what is the name of the school(s) they attended?  You will connect the `people`, `appearances`, `collegeplaying`, and `schools` table to find this.
 6. Make up any question you'd like and answer it.  If you're not a baseball fan, you can keep this relatively simple, but a little data exploration can be fun and we will compare our questions and queries (anonymously if you prefer!) in class.
