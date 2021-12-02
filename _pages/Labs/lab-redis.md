@@ -41,7 +41,7 @@ tags:
 
 In this lab, you will create a graph database schema design including graph-based relationships.  
 
-Using [Redis](https://redis.com/), create a graph database and connect to it from a Python program using the [redis-py](https://redis-py.readthedocs.io/en/stable/) library.
+Using [Redis](https://redis.com/), create a graph database and connect to it from a Python program using the [redis-py](https://redis-py.readthedocs.io/en/stable/) library.  When you create your database, enable the RedisGraph module!
 
 Read a GEDCOM file, and create a node for each person that you identify.  For each relationship, create an edge.  Write a query to output a particular set of relationships.  You can choose the relationship, but it should include at least two links.  For example, aunts and uncles, grandparents, or cousins, as opposed to parents or siblings.
 
