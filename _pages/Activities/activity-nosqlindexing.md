@@ -24,7 +24,13 @@ info:
       questions:
         - "Look up which sort order is specified by <code>1</code> and which by <code>-1</code>."
         - "Insert many records with a loop into a MongoDB database, and query it with and without an index.  What speedup do you observe for varying numbers of <code>N</code> documents in your collection?  You can use the <code>.explain()</code> method on the cursor returned by your call to <code>find()</code> to obtain information about the time required to execute the query, as well as whether an index (<code>BtreeCursor</code>) was used or not (<code>BasicCursor</code>)."
-        
+
+  additional_reading:
+    - link: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GSI.html
+      title: Global Secondary Indices in DynamoDB
+    - link: https://shopify.engineering/read-consistency-database-replicas
+      title: Database Consistency
+      
 tags:
   - nosql
   - normalization
